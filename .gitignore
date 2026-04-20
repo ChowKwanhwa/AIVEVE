@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude Code local
+.claude/settings.local.json
+
+# Editor
+.vscode/
+*.swp
+
+# OS
+Thumbs.db

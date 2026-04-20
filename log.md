@@ -1,0 +1,218 @@
+# Log — 追加式活动日志
+
+> 每一次 ingest(摄取新资料)、query(查询综合)、lint(健康检查)都在此追加一条记录。
+> 只追加,不删除,不修改历史条目。新条目写在文件末尾。
+
+---
+
+## 2026-04-18 — Wiki 初始化(Bootstrap)
+
+**类型**: ingest (bulk)
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户指令 "根据 karpathy 的 gist,把现在这个 codebase 转成我的个人 wiki"
+
+**处理的 raw 源文件**:
+- `raw/RH.csv` — 项目基础信息 & tokenomics 提交表(Project Details)
+- `raw/RedHorse项目重启.md` — 项目方重启沟通纪要(2026-04-16)
+- `raw/links.md` — 项目现有资料链接汇总
+- `raw/project-confirmation-checklist.md` — 英文版确认清单
+- `raw/项目方确认清单.md` — 中文版确认清单
+- `raw/报价要求.md` — 报价/范围说明
+- `raw/参考项目/quantra.md` — 参考项目 Quantra 渠道汇总
+- `raw/logo/logo.png` — 品牌 Logo 原图
+- `raw/备份/RH.xlsx` — RH 数据 Excel 备份
+
+**生成的 wiki 页面**:
+- projects: [[red-horse]], [[quantra]]
+- assets: [[rh-token]], [[red-horse-website]], [[red-horse-whitepaper]], [[red-horse-twitter]], [[red-horse-telegram]], [[red-horse-logo]]
+- exchanges: [[mexc]], [[kucoin]], [[bitget]]
+- entities: [[yu-network-srl]]
+- people: [[taehun-kim]]
+- topics: [[tokenomics]], [[relaunch-plan]], [[ai-social-positioning]], [[listing-path]], [[brand-direction]]
+- events: [[2026-01-13-token-issuance]], [[2026-03-20-mexc-listing]], [[2026-04-16-relaunch-agreement]], [[2026-04-18-incubation-kickoff]]
+- checklists: [[project-confirmation-checklist]]
+
+**产物**:
+- `CLAUDE.md` — schema 与流程
+- `index.md` — 内容目录
+- `log.md` — 本文件
+
+**备注 / 发现的 Open Questions**(已在对应页面 `## Open questions` 节登记):
+- Tokenomics 分配方案:`raw/RH.csv` 与 `raw/项目方确认清单.md` 结构不同,前者已给出 35/20/15/15/10/5% 分配;后者模板仍为空待填。需要项目方确认是否以 CSV 中数据为准,或按重启后重新设计。
+- Vesting schedule 在 RH.csv 中标为 "Not announced / TBD",需项目方补充。
+- 重启方案中 "衍生 DAO 生态"的具体含义未定义 — 详见 [[relaunch-plan]]。
+- 现有 2800 Twitter 粉丝基础上,是否需要买 5w+ 号,执行路径未定 — 详见 [[red-horse-twitter]]。
+- 韩国人站台 vs. 需要外籍 CTO/CEO 站台,暂未最终选择 — 详见 [[relaunch-plan]]。
+
+---
+
+## 2026-04-18 — Ingest: 项目方回填确认清单(品牌反转)
+
+**类型**: ingest
+**操作者**: Claude (Opus 4.7)
+**触发**: `raw/重启/项目方重启信息.md` 出现(项目方 2026-04-18 回填的英文版确认清单)
+
+**新增原始源**:
+- `raw/重启/项目方重启信息.md`(新子目录 `raw/重启/`)
+
+**关键转向**:项目方**不沿用** Red Horse 品牌,**重启后改名为 Aivive (Ticker: AVV)**。具体决策:
+
+- 品牌:重命名 + 新 Logo(由孵化方设计),风格授权孵化方主导
+- 域名:`aiavive.ai`,项目方自行注册,无需孵化方代注
+- 代币:Solana 上的 **AVV**,10B 总量,1B 初始流通,FDV 20–30M,上所价 0.002–0.003 USDT
+- 合约:Not Mintable / Not Pausable / 无税 / 多签 / **CertiK 审计**
+- 分配:Team 10% / Liquidity 18% / MM 5% / Ecosystem 30% / Airdrop 25% / Treasury 10% / Advisors 2%;4 个 bucket vesting 未填
+- 老 RH 持币用户:**不做**快照迁移
+- 社媒:**全新**渠道,不复用老 Red Horse 账号
+- 交付:**ASAP**
+- 白皮书赛道红线:留空,待孵化方提案
+
+**新建的 wiki 页面**:
+- projects: [[aivive]]
+- assets: [[avv-token]], [[aivive-website]], [[aivive-whitepaper]], [[aivive-socials]]
+- topics: [[aivive-tokenomics]]
+- events: [[2026-04-18-project-confirmation-reply]]
+
+**更新的 wiki 页面**(反映品牌反转):
+- [[red-horse]] — 标记为 legacy,指向 [[aivive]] 作为继任项目
+- [[brand-direction]] — 反转为"重命名 + 新 Logo"
+- [[relaunch-plan]] — 重写决策清单、交付物、open questions、下一步
+- [[project-confirmation-checklist]] — 把 pending 改为已答复,补入回答值
+- [[tokenomics]] — 标记为 RH 历史档案
+- [[rh-token]] — 补"不做迁移"说明与归档状态
+- [[red-horse-twitter]] / [[red-horse-telegram]] — 标记 legacy + "不复用"
+- [[listing-path]] — 主体从 RH 切换到 AVV
+- [[ai-social-positioning]] — 与 Aivive 新品牌对齐
+- [[2026-04-18-incubation-kickoff]] — 补入当日品牌反转事件
+- `CLAUDE.md` — 补 `raw/重启/` 子目录、项目简介更新为"Aivive 当前 + Red Horse 历史"
+- `index.md` — 按"当前项目 / 历史归档"重排
+
+**新增的 Open Questions**:
+- Aivive 中文名未定
+- 品牌名 `Aivive` vs. 域名 `aiavive.ai` 拼写不一致 — 需跟项目方确认是否手误
+- [[avv-token]] 四个 bucket(Ecosystem / Airdrop / MM / Liquidity)的 cliff + vesting 未填
+- 多签签名人 & 阈值未定
+- 白皮书赛道红线:项目方留空,孵化方需提 2–3 套叙事
+- 老 Red Horse 社区的公关善后方案
+
+---
+
+## 2026-04-19 — Ingest: 品牌设计系统(DESIGN.md)
+
+**类型**: ingest + 新子体系
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户引入 VoltAgent/awesome-design-md(Google Stitch DESIGN.md 概念)作为品牌视觉交付方式
+
+**引入的外部知识**:
+- VoltAgent/awesome-design-md 仓库结构(68 家品牌,markdown 驱动,面向 AI agent 可读)
+- Google Stitch DESIGN.md 概念
+- 完整内容已迁至 `getdesign.md`(需 `npx getdesign@latest add <brand>` 拉取)
+
+**新增 wiki 子目录**:
+- `wiki/design/` — 设计系统专区
+- `wiki/design/references/` — 外部参考指针
+
+**新增 wiki 页面**:
+- [[aivive-design]] — **Aivive DESIGN.md v0.1**(完整设计系统:13 节,覆盖色/字/间距/圆角/阴影/motion/图标/插图/tone/组件/模式/消费指引)
+- [[framer-DESIGN]] / [[linear-DESIGN]] / [[cal-DESIGN]] — 外部参考指针,指向 getdesign.md
+
+**设计决策(已锁定,在 [[aivive-design]] 里定值)**:
+- 调性三词:**Alive / Warm / Sharp**
+- 主色:紫 `#5B3BEE` + 暖粉 `#FF8A5C` + 电光青 `#4FFFD8`(对应 AI / Give / Vive 三层语义)
+- **完全禁用**红色系(与 [[red-horse]] 视觉血缘切断)
+- 字体:Geist + IBM Plex Serif(关键词"Give / Vive"用衬线)
+- Signature motion:2.8s Breathe 呼吸循环,承载"AI is alive"叙事
+- 模式:Dapp / 官网深色默认,白皮书 / Docs 浅色
+- 图标:Lucide 1.5px stroke
+- 插图**禁**:扁平矢量、线条插画、机器人/电路板套路、马的意象
+
+**品牌叙事决策**:
+- 采纳**双释义**策略:主读 **AI + Give**(项目方原义),副读 **AI + Vive**(英语语感自然联想)—— 解决英语母语者语感和项目方定义之间的张力
+
+**更新的 wiki 页面**:
+- [[brand-direction]] — 工作项改成 DESIGN.md 已完成 + 给项目方"1 主 2 变"呈送方案;新增双释义风险 Open question
+- `CLAUDE.md` — 新增 §4 "设计系统(单一事实源)",规定所有 UI/前端任务必须先读 [[aivive-design]]
+- `index.md` — 新增 "Design(设计系统)" 分类
+
+**新增的 Open Questions**(已登记到 [[aivive-design]] §12):
+- Logo mark 矢量未产出
+- 中文文案在中文名敲定前以 "Aivive" 原词出现,不音译
+- Breathe 动画 2.8s 节奏待可用性测试微调
+- 站台人/Advisor 是否需要专属视觉模版
+
+---
+
+## 2026-04-19 — Ops: Brand Designer 招聘需求
+
+**类型**: 新产出(ops 类)
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户要招一位设计师做 Logo / 海报 / 一图读懂 / 社媒 / 白皮书视觉
+
+**新增 wiki 子目录**:
+- `wiki/ops/` — 运营 / 招聘 / 协议 / 流程类文档
+
+**新增 wiki 页面**:
+- [[designer-hiring]] — 9 节 JD:项目背景 / 交付物(7 项必 + 3 项加分)/ 核心能力 / 加分项 / 调性自筛 / 交付节奏(4 周)/ 合作方式 / 申请流程 / 硬刷条件
+
+**关键 tailoring 点**:
+- JD 明确"按 [[aivive-design]] 落地,不做品牌提案"—— 避免候选人反复要求自由度
+- 禁区清单直接抽自 DESIGN.md:红色 / 扁平矢量 / 线条插画 / 马的意象 / 机器人套路 / meme 贴纸 / 企业蓝
+- 4 周里程碑对齐 [[listing-path|KuCoin ASAP]] 节奏
+- 设 "秒刷硬条件" 过滤:无 Web3/AI/发光作品 / 只有 Logo 单品 / 不能本周开工
+
+**留给用户填的占位**:
+- 微信 / 邮箱 / Telegram 联系方式
+- 预算区间
+- 版权归属 & NDA 细节
+
+**更新的 wiki 页面**:
+- `CLAUDE.md` — 目录结构新增 `wiki/ops/`
+- `index.md` — 新增 "Ops" 分类
+
+---
+
+## 2026-04-20 — Aivive 品牌 v0.2 迁移(紫色退役 → Aqua 主色)
+
+**类型**: ingest (design-system migration)
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户指令 "不要用紫色,紫色太像AI了" → "用Aqua当主色"
+
+**动机**:
+- 紫色/violet 渐变在 AI 产品中已成视觉陈词(OpenAI / Anthropic / Midjourney / Copilot 同质化)
+- Aivive 需与"AI 彩虹渐变"拉开距离,主色切换为 aqua,品牌色双主 aqua + coral(暖)
+
+**SSOT 更新**:
+- `wiki/design/aivive-design.md` v0.1 → v0.2 重写:
+  - §2.1 Aqua 新主色(Tailwind anchor aqua/500 = `#4FFFD8`)
+  - §2.3 Ink 去紫化(hue 260° → 160°),9 档 teal-black
+  - §2.5 渐变简化为 2-stop `aqua → coral`(退役 3-stop violet→coral→aqua)
+  - §2.6 "Do Not" 新增 "不用紫色"
+  - §9 按钮 primary 在 dark 模式文字反转为 ink/950(因 aqua 太亮)
+  - §13 记录完整迁移说明
+
+**Figma 文件 1 — Brand Brief(`zUkPA30Kxd2pI2Tq143yAo`)**:
+- Primitives 新增 aqua/200 #A8FFEB / aqua/700 #0E9E80 / aqua/800 #0B7A63 / aqua/900 #08584A
+- Ink 9 档全部更新为 v0.2 teal-black 值
+- 语义 token 重绑(Dark↔Light):`color/brand/primary`、`color/text/brand`、`color/text/on-brand`、`color/brand/vive`
+- 重建 5 页:Cover / ④ Color Palette / ⑥ Gradient Library / ⑨ Do's & Don'ts / ⑩ Moodboard
+- 硬编码 violet 补丁 12 处:Logo Brief 文案、Poster Specs 5 个画幅渐变、Poster Specs glow 椭圆、Social Kit Specs OG/avatar/story/banner 5 个渐变
+
+**Figma 文件 2 — Visual Guide(`buOQAK3El7SLaeSOEoOFjj`)**:
+- 相同 primitive + ink + 语义 token 迁移(brand/primary, primary-hover, primary-pressed, vive, text/brand, text/on-brand)
+- `color/status/info` 重绑 violet/500 → aqua/400(v0.2 无专用 info 色,复用 aqua 家族)
+- Effect styles 修复:shadow/1..3 紫黑色 → ink/950;glow/violet 保留位但颜色改为 aqua + 描述标记 DEPRECATED
+- 组件修复:Hero 两层渐变(linear + radial vignette)、Button primary hover 发光、Input focus ring — 全部去紫
+- 5 个组件页的 page background 从 `#0B0720` → `#08100E`(ink/950)
+- Cover & Foundations 版本号文案 v0.1 → v0.2
+- Input 描述文案 "violet glow" → "aqua glow"
+- Foundations 标题 "glow violet" → "glow aqua"
+- 保留 5 个 violet/* primitives(violet/300..700)但标记 DEPRECATED 描述(非破坏性迁移,防未知外部引用)
+
+**影响的 wiki 页面**:
+- `wiki/design/aivive-design.md` — 核心重写
+
+**为什么紫色原语不删除**:
+- Figma Variables 在模式/文件/库间的交叉引用无法可靠静态追踪,删除可能破坏订阅本库的其他文件
+- 在 description 里声明 DEPRECATED 是惯例做法,未来清理周期统一删
+
+---

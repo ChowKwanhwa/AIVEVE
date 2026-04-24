@@ -15,6 +15,7 @@
 
 - [[avv-token]] — AVV 代币(Solana,待部署)
 - [[aivive-website]] — `aiavive.ai`(待上线)
+- [[aivive-app]] — **Aivive App(AI Social Feed,V1 在 60-day sprint)**
 - [[aivive-whitepaper]] — 白皮书(待编写)
 - [[aivive-socials]] — 全新社媒矩阵(待开设)
 
@@ -72,6 +73,7 @@
 ## Ops(运营 / 招聘 / 流程)
 
 - [[designer-hiring]] — Brand Designer 招聘需求
+- [[social-content-bank-v1-mystery-phase]] — **Twitter / Telegram / 海报内容 SSOT(Mystery Phase)**
 
 ## Meta(元)
 

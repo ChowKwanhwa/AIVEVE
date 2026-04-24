@@ -216,3 +216,95 @@
 - 在 description 里声明 DEPRECATED 是惯例做法,未来清理周期统一删
 
 ---
+
+## 2026-04-24 — Aivive App V1 规划完成 + chain-arch 双链 hybrid
+
+**类型**: planning + ingest (新 wiki 页 + plan)
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户指令 "为AIVIVE规划一个App;集合 TTS / 声音克隆 / 文生图 / 文生视频, 2 个月内上 KuCoin", 用 superpowers brainstorming + plan mode 全流程
+
+**产物**:
+- `/Users/ericc/.claude/plans/aivive-app-ai-saas-tts-aivive-crypto-2-silly-lovelace.md` — 完整 plan(16 节, 含 chain-arch 修订记录 §16)
+- `wiki/projects/aivive-app.md` — 新 wiki 页(对外可见状态 + 决策摘要 + 上线 metric)
+- `index.md` — Assets 节加 [[aivive-app]] 链接
+
+**MVP 形态决策**:
+- 经 brainstorm 由用户从 3 个切法(全能 Studio / 单点 Hero / AI Social Feed)中选 **C. AI Social Feed**(类 Civitai/Pixiv)
+- Hero 模型 = **文生图**(用户指出"视觉化, 适合交易所演示")
+- 视频 V1 待 W3 末 gate;TTS / 声音克隆 V1 占位
+- 主市场海外 EN, 团队 1-2 人(你 + Claude), 栈 = Next 15 + Supabase + Vercel + Privy + Inngest + viem
+
+**Chain-arch 关键决策(2026-04-24 修订)**:
+- 用户原议"自建 EVM 测试链给 listing team 看", 经评估后否决:2 周成本不换 KuCoin 信任, normie 流失
+- 用户改为"TGE 走 Solana, 平台支付走 EVM, 比较方便", 进一步确认 = **Base mainnet** 不自建链(用 anvil + Base Sepolia 做 dev)
+- 支付币种 = **USDC**(Base 原生);AVV 不直接被用户使用
+- AVV utility 实现 = **平台 USDC 收入周期性 → CCTP 跨链 → Jupiter 买 AVV → SPL burn**(deflationary anchor, 类 BNB/GMX/SNX 模式)
+- 三段资金流见 plan §7;数据模型新增 `cross_chain_transfers` `burn_runs` 表
+
+**60 天里程碑**:
+- 起算 2026-04-21, 目标交付 **2026-06-20** 上线 V1 + 提交 KuCoin 申请
+- W1 现起 = repo init + Next/Supabase/Privy hello-world + design tokens + drizzle schema v0
+- 4 个 Gate 检查点(W3 视频 / W4 充值 / W5 审核 / W7 DAU)
+
+**待新建 wiki 页(W2-W3 链上线后填地址)**:
+- [[base-treasury]] — Base Safe 多签
+- [[buyback-burn-program]] — Wormhole CCTP + Jupiter swap + SPL burn cron 配置
+- [[chains/base]] / [[chains/solana]] — 双链地址 / 合约 / 依赖
+
+**Open questions(已写入 [[aivive-app]] 页)**:
+- 域名 `aivive.ai` vs `aiavive.ai` 拼写
+- 多签人选 TBD
+- 视频 V1 进 / 砍 W3 末决定
+- Dune dashboard 谁建 W6 末决定
+- 中文政要库 V2 中文上线时补
+
+**未变更**:wiki schema / [[aivive-design]] v0.2 / [[avv-token]] / [[aivive-tokenomics]] 不动;App 是新 asset 不影响已有决策
+
+---
+
+## 2026-04-24 — Ops: Social Content Bank V1 (Mystery Phase)
+
+**类型**: 新产出 (ops 类)
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户优先级转向 — App 仍在 W1 scaffold 阶段, 但运营 Twitter / 出海报文案是更紧急的当务之急
+
+**关键策略决定**(2 轮迭代收敛):
+- 第 1 版: 含 $AVV ticker + burn 机制 + 上 KuCoin 故事
+- 用户反馈: "项目还非常前期, 不要提到 $AVV, 弄点神秘感, 多聊 AI / AI Agent / Harness 等深度内容"
+- **最终 V1 = 完全不卖币、不卖产品**, 建立"懂 AI 的 thinker"账号人设, 先吸 AI 圈再降到 Web3 人群
+
+**新建 wiki 页**:
+- [[social-content-bank-v1-mystery-phase]] — 11 节, 含:
+  - §0 品牌硬约束 (引 [[aivive-design]] §8 + plan §11/15/6 红线)
+  - §1 Bio / Handle / Pinned 终选
+  - §2 推文 28 条 6 类 (A 深度 8 / B 神秘 5 / C 美学 4 / D 互动 5 / E build-in-public 3 / F 身份 3)
+  - §3 海报 5 张 (M1 Hero / M2 Loop / M3 Three Words / M4 Harness / M5 Day Counter)
+  - §4 首周 7 天发布日历 (Day-Time-推文-配图-目的)
+  - §5 KOL 互动框架 + Tier 0/1 短名单
+  - §6 Reply Hook 库 (5 类 + 红线)
+  - §7 Thread 模板 3 条 (T1 harness / T2 generation vs taste / T3 60 天 5 件事)
+  - §8 Telegram 启动包 (channel / chat / 群规 / 5 条首条消息)
+  - §9 Phase 2 揭面纱推文 (W2-W3 触发条件 + P2A-F 共 8 条)
+  - §10 ops 提醒
+  - §11 versioning (V1 → V2 → V3 切版本规则)
+
+**关键品牌约束 (V1 全篇红线)**:
+- ❌ $AVV ticker / 上所名称 / 价格 / TGE 日期 / "to the moon"
+- ❌ 主动提 [[red-horse]] 老社区
+- ❌ 海报视觉里政要 / 真人 / 儿童
+- ❌ 紫色 / 红色 (沿用 [[aivive-design]] v0.2)
+- ✅ 只用 aqua + coral + ink (teal-black hue 160°)
+- ✅ 大写品牌词 Aivive / Give / Vive (关键位置可衬线)
+
+**更新的 wiki 页**:
+- `index.md` — Ops 节加 [[social-content-bank-v1-mystery-phase]] 链接
+
+**Open questions** (已写入 wiki 页 §Open questions):
+- Twitter handle (@aivive_ / @aivive_ai / @aivive_io) 4 个候选都未确认可用
+- TG 命名一致性 (`_chat` 子目录是孵化方惯例还是项目方偏好)
+- 谁来发推 (孵化方代发 vs. 项目方账号), 见 [[aivive-socials]] 早期 open question
+- 5w+ 粉老号买号方案 (raw/报价要求.md) 在新品牌下是否仍执行
+
+**未变更**:[[aivive-design]] / [[brand-direction]] / [[aivive-app]] / [[avv-token]] 不动
+
+---

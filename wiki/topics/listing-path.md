@@ -44,7 +44,7 @@ updated: 2026-04-18
 - [[avv-token]] 合约部署 + CertiK 审计完成
 - [[aivive-tokenomics]] 4 个 bucket vesting 补齐
 - [[aivive-whitepaper]] V1 完稿
-- [[aivive-website]] `aiavive.ai` 上线
+- [[aivive-website]] `aivive.ai` 上线
 - [[aivive-socials]] 社媒矩阵冷启动
 - 多签签名人确定
 - 站台人选确定(韩国人 [[taehun-kim]] vs. 外籍 CEO/CTO)

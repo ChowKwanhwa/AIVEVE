@@ -55,6 +55,6 @@ updated: 2026-04-18
 ## Open questions / conflicts
 
 - **中文名未定** — raw 中为 `-`。孵化方需在品牌提案中一并给出 2–3 个中文候选。
-- **品牌名拼写 vs 域名拼写**:Aivive vs `aiavive.ai` — 详见 [[aivive-website]]。
+- ~~**品牌名拼写 vs 域名拼写**~~ ✅ 已解决(2026-04-26)— 域名 `aivive.ai`,与品牌名拼写一致;见 [[aivive-website]] §域名拼写决议。
 - **品牌 VI 交付时间**:项目方要 ASAP,但具体里程碑未排(受 [[listing-path]] 中 KuCoin 节点牵引)。
 - **品牌名释义风险**:项目方定义 "AI + Give",但 `-vive` 在英语语感中更接近 "alive / vive / vivid"。[[aivive-design]] 已采纳**双释义**策略(Give + Vive),白皮书与官网文案需显式呈现这个双关,避免用户自行解读。

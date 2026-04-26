@@ -308,3 +308,62 @@
 **未变更**:[[aivive-design]] / [[brand-direction]] / [[aivive-app]] / [[avv-token]] 不动
 
 ---
+
+## 2026-04-26 — Ingest: 社媒 handle 确认 + 域名拼写决议 + bio/blurb 落档
+
+**类型**: ingest (项目方提供的运营信息) + ops 类新产出
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户提供 7 个 social URL + 1 个 email + website,确认所有 channel 已创建
+
+**输入**:
+```
+Twitter:    https://x.com/AIVIVEHQ
+Telegram:   https://t.me/AIVIVEHQ
+YouTube:    https://www.youtube.com/@AIVIVEHQ
+Medium:     https://medium.com/@aivive
+Link3:      https://link3.to/aivive
+Email:      contact@aivive.ai
+Website:    https://aivive.ai
+```
+
+**关键决议(2 个 open question 一并解决)**:
+
+1. **域名拼写**:`aiavive.ai`(项目方原 raw 笔误)→ 实际为 **`aivive.ai`**
+2. **Handle**:Twitter / TG / YouTube 统一 `@AIVIVEHQ`(HQ 后缀防仿冒);Medium / Link3 用 `aivive`(无后缀)
+
+**批量操作**:
+- `sed` 全仓替换 `aiavive.ai` → `aivive.ai`(影响 13 个文件)
+- `sed` 全仓替换 `@aivive_` → `@AIVIVEHQ`,`@aivive_chat` → `@AIVIVEHQ_chat`
+- 修复 sed 误伤的历史注释(`wiki/assets/aivive-website.md` §域名拼写决议保留 `aiavive.ai` 原始拼写以记录笔误)
+- 8 个文件的"拼写未确认"/"待澄清"open question 标记为 ✅ 已解决
+
+**新建 wiki 页内容**:
+- [[aivive-socials]] 重写:从"未创建"→列出全部 7 个已创建 channel + handle 命名约定 + 还未开 channel + 仍未解的 open question
+- [[aivive-website]] 重写:加 §域名拼写决议节,标明 `aivive.ai` 为最终值
+
+**新建 outputs**:
+- `outputs/copy/bio-and-blurb.md`(2026-04-26):
+  - Part 1 Bio 包(7 个平台:Twitter/TG/Discord/Medium/Link3/Email signature 等)
+  - Part 2 Blurb 包(VC / 项目方 / AI builder 三种受众 × 三种长度 + 4 个 ask 模板 + 1 个完全神秘版)
+  - Part 3 使用建议 + 公开 vs 私下双红线 checklist
+
+**更新的 wiki 页**:
+- [[aivive]] — 域名行 ✅,社群交付物 ✅
+- [[aivive-app]] — 域名 open question 划掉
+- [[aivive-design]] — §12 open question #2 划掉
+- [[brand-direction]] — open question 域名行划掉
+- [[relaunch-plan]] — 2 处域名相关划掉
+- [[project-confirmation-checklist]] — 域名行 ⚠️ → ✅
+- [[2026-04-18-incubation-kickoff]] — 域名核实 todo 打勾
+- [[social-content-bank-v1-mystery-phase]] — §1 Bio/Handle 节重写为"实际使用 handles",§Telegram 节标注 channel 已建 chat 待建
+- `outputs/copy/bio-and-blurb.md` — Linktree → Link3,加 handle 速查头部
+
+**仍未解的 open question(已记录在 [[aivive-socials]])**:
+- 5w+ 粉老号买号方案是否在新品牌下执行
+- 社媒账号所有权(孵化方代持 vs 项目方持有)
+- TG chat group 是否要建 + handle 是否用 `@AIVIVEHQ_chat`
+- Twitter handle 大小写显示统一(全大写 vs mixed case)
+
+**未变更**:plan / [[aivive-design]] 颜色系统 / [[avv-token]] 合约信息 / [[aivive-tokenomics]] 不动
+
+---

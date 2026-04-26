@@ -42,17 +42,20 @@ updated: 2026-04-24
 
 ## 1. Bio / Handle / Pinned 终选
 
-### Handle 抢占优先级(同名用于 Twitter / Telegram / Linktree / Medium)
+### 实际使用的 handles(2026-04-26 已确认,见 [[aivive-socials]])
 
 ```
-1st choice:   @aivive_       (最干净,_ 后缀比 _ai 更轻)
-2nd choice:   @aivive        (无后缀,可能被占)
-3rd choice:   @aivive_ai     (传统 AI 项目套路)
-4th choice:   @aivive_io     (技术风)
+Twitter:    @AIVIVEHQ        x.com/AIVIVEHQ
+Telegram:   @AIVIVEHQ        t.me/AIVIVEHQ
+YouTube:    @AIVIVEHQ        youtube.com/@AIVIVEHQ
+Medium:     @aivive          medium.com/@aivive
+Link3:      aivive           link3.to/aivive
+Email:      contact@aivive.ai
+Website:    aivive.ai
 
-避免:
-  ❌ @AviveOfficial / @AiviveDAO / @AiviveProtocol — 立刻闻起来像 token shill
-  ❌ @Aivive_AI / Aivive.AI — 拼写 vs 域名 aiavive 已有歧义
+命名约定:
+- 核心广播平台 (Twitter/TG/YouTube): AIVIVEHQ (HQ 后缀, 区分官方 vs 仿冒)
+- 内容平台 (Medium/Link3): aivive (无后缀, 简洁)
 ```
 
 ### Bio 三个候选(A/B test)
@@ -63,7 +66,7 @@ A — 极简神秘版(首推,与 Phase 1 调性最一致):
 AI that gives.
 alive · warm · sharp
 
-aiavive.ai
+aivive.ai
 ```
 
 ```
@@ -71,7 +74,7 @@ B — 略亮(适合 Phase 2 揭面纱):
 
 building an AI feed that pays for itself.
 
-soon · aiavive.ai
+soon · aivive.ai
 ```
 
 ```
@@ -80,7 +83,7 @@ C — 工程深度(吸 builder,稍露马脚):
 we read too much SDK documentation
 so you don't have to.
 
-aiavive.ai · soon
+aivive.ai · soon
 ```
 
 ### Pinned Tweet 候选
@@ -437,7 +440,7 @@ Headline:    Soon.
 Body:        Aivive
              alive · warm · sharp
 
-Footer:      aiavive.ai · @aivive_
+Footer:      aivive.ai · @AIVIVEHQ
 
 视觉:
 - 一个 aqua → coral 渐变 orb 居中,Breathe 动效暗示(2 个柔和 ring)
@@ -485,7 +488,7 @@ Subhead:     What kind of AI
 
 Body:        (无)
 
-Footer:      aiavive.ai
+Footer:      aivive.ai
 
 视觉:
 - 三词竖排,显示字号 (display, 7xl+)
@@ -513,7 +516,7 @@ Body:        Same model.
              You're not using AI.
              You're using a harness around AI.
 
-Footer:      Aivive · aiavive.ai
+Footer:      Aivive · aivive.ai
 
 视觉:
 - 中央一个 model 抽象球体 (aqua glow, 半透明实心)
@@ -534,7 +537,7 @@ Subhead:     We're cooking.
 
 Body:        ━━●━━━━━━━━━━━━━━━━
 
-Footer:      @aivive_
+Footer:      @AIVIVEHQ
 
 视觉:
 - 进度条横向贯穿,当前 day 用 coral-500 实心圆 + glow
@@ -962,7 +965,7 @@ shipping > all.
 
 > Twitter 抓认知,Telegram 是 retention。建议 D1 同步开 channel + chat group,2 周后才开始放消息(给 Twitter 引流先建群)。
 
-### Channel(广播,@aivive_)
+### Channel(广播,@AIVIVEHQ — ✅ 2026-04-26 已建)
 
 ```
 名称:   Aivive
@@ -971,11 +974,13 @@ shipping > all.
   AI that gives.
   alive · warm · sharp
 
-  Updates from the team building aiavive.ai.
-  Chat: t.me/aivive_chat
+  Updates from the team building aivive.ai.
 ```
 
-### Chat group(@aivive_chat)
+> 已建 channel 没配 chat group。下面 §Chat group 是预留 — 当 chat 建好后,
+> 把 channel 描述末尾加一行 `Chat: t.me/AIVIVEHQ_chat`。
+
+### Chat group(@AIVIVEHQ_chat — ⏳ 待建)
 
 ```
 名称:    Aivive · chat
@@ -984,7 +989,7 @@ shipping > all.
   Community chat for Aivive.
   Builders, creators, and the curious.
 
-  Channel: t.me/aivive_
+  Channel: t.me/AIVIVEHQ
 
   Be kind. Be useful.
   No shilling. No price talk. No ticker requests.
@@ -1249,7 +1254,7 @@ next week: studio that doesn't look like 2019.
 
 ## 10. ops 提醒
 
-1. **handle 必须先抢**:`@aivive_` `@aivive_ai` `@aivive_io` 全占稳。同步 TG / Medium / Linktree / Discord 用同一个 handle
+1. **handle 必须先抢**:`@AIVIVEHQ` `@AIVIVEHQai` `@AIVIVEHQio` 全占稳。同步 TG / Medium / Linktree / Discord 用同一个 handle
 2. **不要在任何推文/海报里写 "Coming to KuCoin"** — 交易所 PR 权,提前讲会破坏 listing
 3. **/burn 公开页**(plan §10 W6)是 token 故事的视觉锚 — Poster M5 W6 后改为 "First burn live · /burn"
 4. **跟谁互动**:AI 圈优先(见 §5 KOL 名单),不要去 crypto KOL 互动(信号污染)

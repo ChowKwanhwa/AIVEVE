@@ -30,7 +30,7 @@ date: 2026-04-18
 - [ ] 启动 [[avv-token]] 合约开发 + CertiK 审计询价
 - [ ] 启动 [[aivive-whitepaper]] 叙事提案(2–3 套赛道)
 - [ ] 启动 [[aivive-socials|社媒矩阵]]申请
-- [ ] 核实 `aiavive.ai` 拼写 & 注册状态([[aivive-website]])
+- [x] 核实 `aivive.ai` 拼写 & 注册状态([[aivive-website]])✅ 2026-04-26 确认
 - [ ] 与项目方对齐 [[kucoin]] 上线时间节点(把 "ASAP" 拆成具体里程碑)
 
 ---

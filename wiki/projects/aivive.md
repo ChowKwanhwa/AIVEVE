@@ -32,7 +32,7 @@ Aivive 并非 Red Horse 的改名 — 项目方已明确:
 | Ticker | **AVV** |
 | 含义 | AI + Give — a project that shares value through AI |
 | 发行链 | Solana |
-| 官方域名 | `aiavive.ai`(见 [[aivive-website]];与品牌名拼写不一致,待澄清) |
+| 官方域名 | `aivive.ai` ✅(2026-04-26 确认,见 [[aivive-website]] §域名拼写决议) |
 | 代币详情 | [[avv-token]] |
 | Tokenomics | [[aivive-tokenomics]] |
 | 法律实体 | [[yu-network-srl]] |
@@ -54,11 +54,11 @@ Aivive 并非 Red Horse 的改名 — 项目方已明确:
 | 交付物 | Wiki | 状态 |
 |---|---|---|
 | 品牌 VI(新 Logo + VI 手册) | [[brand-direction]] | 待启动,项目方授权孵化方自主提案 |
-| 官方站 `aiavive.ai` | [[aivive-website]] | 域名由项目方注册,站点由孵化方开发 |
+| 官方站 `aivive.ai` | [[aivive-website]] | 域名由项目方注册,站点由孵化方开发 |
 | 白皮书 V1 | [[aivive-whitepaper]] | 待启动 |
 | Dapp Demo(含 AI 社交工具) | — | 待启动 |
 | 代币合约 | [[avv-token]] | 待部署,需 CertiK 审计 |
-| 新社群(Twitter / Telegram) | [[aivive-socials]] | 待开设 |
+| 新社群(Twitter / Telegram / YouTube / Medium / Link3) | [[aivive-socials]] | ✅ 2026-04-26 主要平台开设完成 |
 
 **时间要求:ASAP**(raw/重启/项目方重启信息.md Section 4 "Expected delivery timeline")。
 
@@ -74,7 +74,7 @@ Aivive 并非 Red Horse 的改名 — 项目方已明确:
 
 ## Open questions / conflicts
 
-- **拼写一致性**:品牌名 Aivive vs. 代币名 AIVIVE vs. 域名 `aiavive.ai` 三者不完全一致 — 应统一为 `aivive.ai` 还是 `aiavive.ai`?详见 [[aivive-website]]。
+- ~~**拼写一致性**~~ ✅ 已解决(2026-04-26)— 域名 `aivive.ai`,代币 ticker `AVV`,品牌名 `Aivive`(见 [[aivive-website]] §域名拼写决议)
 - **中文名** 未定,raw 中为 `-`。
 - **白皮书叙事红线** 未定(Section 4 留空),需锁定赛道。
 - 旧 [[red-horse]] 的社区/合约在重启期如何善后(不迁移,但也不能无声消失),无方案。

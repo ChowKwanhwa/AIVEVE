@@ -36,7 +36,7 @@ updated: 2026-04-18
 ## 孵化包内容(raw/报价要求.md + 2026-04-18 项目方修正)
 
 - **3 个月运营孵化包装**(送 1 个月运营对接沟通)
-- 官网新建(`aiavive.ai`,内置真正的 AI 类社交工具,匹配 [[ai-social-positioning]]) — 见 [[aivive-website]]
+- 官网新建(`aivive.ai`,内置真正的 AI 类社交工具,匹配 [[ai-social-positioning]]) — 见 [[aivive-website]]
 - 社媒:**全新渠道矩阵**(Twitter / Telegram / YouTube / Medium / ...) — 见 [[aivive-socials]];原"买 5w+ 粉老号"方案转为新品牌账号冷启动策略
 - 配合 [[mexc|MEXC]] 信息迭代 — 仅针对老 [[rh-token]],作为团队信誉证明;不切换为 AVV
 - ⚠️ **不再沿用** Red Horse 名称 / Logo(见 [[brand-direction]]);改名 **[[aivive|Aivive (AVV)]]**
@@ -51,7 +51,7 @@ updated: 2026-04-18
 | 交付物 | 对应 wiki 页 | 状态 |
 |---|---|---|
 | **全新品牌 VI**(新 Logo,视觉提案) | [[brand-direction]] | 待启动,孵化方主导 |
-| **新官网** `aiavive.ai` | [[aivive-website]] | 域名项目方注册,站点孵化方开发 |
+| **新官网** `aivive.ai` | [[aivive-website]] | 域名项目方注册,站点孵化方开发 |
 | **新白皮书** V1 | [[aivive-whitepaper]] | 待启动 |
 | Dapp Demo(含 AI 社交工具) | — | 待立项 |
 | **新代币合约 AVV** + CertiK 审计 | [[avv-token]] / [[aivive-tokenomics]] | 待部署;4 个 bucket vesting 未填 |
@@ -75,7 +75,7 @@ updated: 2026-04-18
 🟡 Open questions:
 
 - **Aivive 中文名** 未定
-- **品牌名 vs 域名拼写** `Aivive` vs `aiavive.ai`(详见 [[aivive-website]])
+- ~~**品牌名 vs 域名拼写**~~ ✅ 已解决(2026-04-26)— `aivive.ai`(见 [[aivive-website]])
 - **4 个 bucket 的 vesting**(Ecosystem / Airdrop / MM / Liquidity)未填(详见 [[aivive-tokenomics]])
 - **多签人与阈值** 未定
 - **白皮书赛道红线** 项目方留空,待孵化方提 2–3 套叙事
@@ -94,4 +94,4 @@ updated: 2026-04-18
 - 启动 [[aivive-whitepaper]] V1 撰写 + 向项目方提赛道叙事方案
 - 启动 [[brand-direction|品牌 VI 提案]](新 Logo + 2–3 套风格)
 - 启动 [[aivive-socials|社媒矩阵]]开设
-- 核实 `aiavive.ai` 域名拼写及注册状态
+- ~~核实 `aivive.ai` 域名拼写及注册状态~~ ✅ 完成(2026-04-26)

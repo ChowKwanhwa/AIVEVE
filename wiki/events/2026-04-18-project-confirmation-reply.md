@@ -36,7 +36,7 @@ date: 2026-04-18
 - **Name**: Aivive(含义:AI + Give)
 - **Ticker**: AVV
 - **Chain**: Solana
-- **Domain**: `aiavive.ai`(⚠️ 注意:项目方指定为 `aiavive.ai`,非 `aivive.ai`,可能是手误,见 [[aivive-website]] Open questions)
+- **Domain**: `aivive.ai`(⚠️ 注意:项目方指定为 `aivive.ai`,非 `aivive.ai`,可能是手误,见 [[aivive-website]] Open questions)
 - **Domain 注册**: 项目方自行注册,**不需要**孵化方代注
 - **Contract**: Not Mintable / Not Pausable / 无税 / **多签 Yes** / **CertiK 审计**
 - **Total Supply**: 10,000,000,000 AVV
@@ -76,6 +76,6 @@ date: 2026-04-18
 - 前置:[[project-confirmation-checklist]](发给项目方的问卷);[[2026-04-16-relaunch-agreement]]
 - 后续:
   - 启动 Aivive 品牌 VI(新 Logo、新官网、新白皮书)
-  - 注册 `aiavive.ai`(项目方自理,需跟进)
+  - 注册 `aivive.ai`(项目方自理,需跟进)
   - [[listing-path]] 目标从 RH 切换到 **AVV**
   - 老 [[rh-token]] 不做迁移,成为历史资产

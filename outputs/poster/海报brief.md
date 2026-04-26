@@ -106,7 +106,7 @@ Headline:    Soon.
 Body:        Aivive
              alive · warm · sharp
 
-Footer:      aiavive.ai · @aivive_
+Footer:      aivive.ai · @AIVIVEHQ
 ```
 
 ### 视觉规范
@@ -201,7 +201,7 @@ Subhead:     What kind of AI
 
 Body:        (无)
 
-Footer:      aiavive.ai
+Footer:      aivive.ai
 ```
 
 ### 视觉规范
@@ -253,7 +253,7 @@ Body:        Same model.
              You're not using AI.
              You're using a harness around AI.
 
-Footer:      Aivive · aiavive.ai
+Footer:      Aivive · aivive.ai
 ```
 
 ### 视觉规范
@@ -301,7 +301,7 @@ Subhead:     We're cooking.
 
 Body:        ━━━━●━━━━━━━━━━━━━━
 
-Footer:      @aivive_
+Footer:      @AIVIVEHQ
 ```
 
 ### 视觉规范

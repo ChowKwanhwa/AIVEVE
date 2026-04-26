@@ -8,9 +8,9 @@
 
 ## 🇺🇸 English (主版本)
 
-**Aivive** is a deflationary AI-native economy. Every dollar of revenue from the platform's AI generation tools is automatically used to buy back and permanently destroy the project's token — turning your creativity into measurable, verifiable on-chain scarcity. There's no token to stake, no gating to use the product, and the entire loop runs automatically and publicly.
+**AI made content infinite. Aivive makes one thing scarce — on purpose.** Every dollar of revenue from the platform's AI generation tools is used to buy back and permanently destroy the project's token, turning your creativity into measurable on-chain scarcity. Nothing to stake. Nothing to hold. Nothing to think about. You just create.
 
-**aivive.ai** is the flagship AI image generation feed running on Aivive. Civitai meets Pinterest, made for the AI era. Build a profile through what you make, share it in a feed where remix is one click, and let your taste be discovered. Reputation is what you ship. Taste lives in the UI, not the chatbox.
+**Forget chatboxes. aivive.ai is a feed.** Built for taste, not search. Civitai meets Pinterest, made for the era when "AI artist" stops being a contradiction. Build a profile through what you make. Remix anything in one click. Let your taste be discovered. Reputation is what you ship.
 
 🌐 Website
 https://aivive.ai
@@ -37,9 +37,9 @@ contact@aivive.ai
 
 ## 🇨🇳 中文版(用于 Followin / 中文 AMA / 内部分享)
 
-**Aivive** 是一个通缩型 AI 原生经济体。平台上 AI 生成工具产生的每一美元收入,都会自动用于回购并永久销毁项目代币 — 把你的创造力,变成链上可验证的稀缺性。无需质押,无需持币就能使用产品,整个循环自动且公开运行。
+**AI 让内容无限。Aivive 偏要让一样东西稀缺 — 刻意为之。** 平台 AI 工具产生的每一美元收入,都会回购并永久销毁项目代币,把你的创造力变成链上可见的稀缺性。无需质押。无需持币。什么都不用想。你只管创造。
 
-**aivive.ai** 是运行于 Aivive 之上的旗舰级 AI 图像生成 feed。Civitai 遇见 Pinterest,为 AI 时代而生。靠你做出的东西建立主页,在 feed 里一键 remix 别人的作品,让你的品味被看见。声誉来自你交付的东西。品味体现在 UI,而不是 chatbox。
+**忘掉 chatbox。aivive.ai 是一个 feed。** 为品味而生,不为搜索而生。Civitai 遇见 Pinterest,为 "AI artist" 不再是个矛盾词的时代而生。靠你做出的东西建立主页,一键 remix 任何作品,让你的品味被看见。声誉来自你交付的东西。
 
 🌐 官方网站
 https://aivive.ai
@@ -66,10 +66,22 @@ contact@aivive.ai
 
 ## 极简版(短到 1 段,适合空间紧的场景)
 
-> **Aivive** is a deflationary AI-native economy where every dollar of platform usage automatically destroys some of the project's token. **aivive.ai** is its flagship AI image generation feed — Civitai meets Pinterest, made for the AI era. You use the product. The token math runs itself.
+> **AI made content infinite. Aivive made one thing scarce — automatically, in public, every time you create.** aivive.ai is its flagship AI image feed: Civitai meets Pinterest, built for taste over search. You create. The token math runs itself.
 
 (中文)
-> **Aivive** 是一个通缩型 AI 原生经济体,平台每一美元的使用都会自动销毁一部分代币。**aivive.ai** 是其旗舰 AI 图像生成 feed — Civitai 遇见 Pinterest,为 AI 时代而生。你只管用,代币那部分自己运转。
+> **AI 让内容无限。Aivive 偏要让一样东西稀缺 — 自动、公开、每次创造都触发。** aivive.ai 是其旗舰 AI 图像 feed:Civitai 遇见 Pinterest,为品味而生不为搜索而生。你只管创造,代币那部分自己运转。
+
+---
+
+## 单句版(给 Twitter bio / pinned tweet / 海报标题)
+
+```
+EN:   AI made content infinite. We made one thing scarce.
+
+中文: AI 让内容无限。我们偏要让一样东西稀缺。
+```
+
+10 个英文字 / 12 个中文字。强对比,可作为后续所有 marketing 的 anchor 句。
 
 ---
 

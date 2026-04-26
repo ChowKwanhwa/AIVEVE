@@ -8,9 +8,9 @@
 
 ## 🇺🇸 English (主版本)
 
-**AI made content infinite. Aivive makes one thing scarce — on purpose.** Every dollar of revenue from the platform's AI generation tools is used to buy back and permanently destroy the project's token, turning your creativity into measurable on-chain scarcity. Nothing to stake. Nothing to hold. Nothing to think about. You just create.
+Aivive is the AI-native deflationary economy built for the consumer-app era. Using on-chain monetary primitives spanning Solana and Base, every dollar of revenue from the platform's AI generation tools is converted into transparent, irreversible token destruction — turning consumer creativity into measurable scarcity rather than middleman margin. This creates a self-funded creative economy where the value of the asset rises with the use of the product, automatically and in public, without users ever needing to hold or stake the token to participate.
 
-**Forget chatboxes. aivive.ai is a feed.** Built for taste, not search. Civitai meets Pinterest, made for the era when "AI artist" stops being a contradiction. Build a profile through what you make. Remix anything in one click. Let your taste be discovered. Reputation is what you ship.
+aivive.ai is the flagship AI image generation feed running on Aivive. It's where AI-generated visual culture meets social discovery for the next wave of internet creators. Designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search — Civitai meets Pinterest, built for the era when "AI artist" stops being a contradiction. Reputation is earned through what you ship, while every generation quietly fuels a deflationary loop verifiable on-chain in real time.
 
 🌐 Website
 https://aivive.ai
@@ -37,9 +37,9 @@ contact@aivive.ai
 
 ## 🇨🇳 中文版(用于 Followin / 中文 AMA / 内部分享)
 
-**AI 让内容无限。Aivive 偏要让一样东西稀缺 — 刻意为之。** 平台 AI 工具产生的每一美元收入,都会回购并永久销毁项目代币,把你的创造力变成链上可见的稀缺性。无需质押。无需持币。什么都不用想。你只管创造。
+Aivive 是为消费级 AI 应用时代而生的 AI 原生通缩经济体。基于运行在 Solana 与 Base 上的链上货币原语,平台 AI 生成工具产生的每一美元收入,都会被自动转化为透明、不可逆的代币销毁 — 把消费者的创造力,变成可被度量的稀缺性,而非中间方的利润。这构建出一个自我循环的创意经济:产品被使用得越多,资产就越稀缺,自动、公开、不可逆 — 而用户本人无需持有或质押任何代币即可参与。
 
-**忘掉 chatbox。aivive.ai 是一个 feed。** 为品味而生,不为搜索而生。Civitai 遇见 Pinterest,为 "AI artist" 不再是个矛盾词的时代而生。靠你做出的东西建立主页,一键 remix 任何作品,让你的品味被看见。声誉来自你交付的东西。
+aivive.ai 是运行于 Aivive 之上的旗舰 AI 图像生成 feed。它是 AI 生成视觉文化与社交发现的交汇点,服务下一代互联网创作者。设计师、prompt 艺术家、所有被好奇心驱动的人,在这里建立由其真实创作足迹背书的个人主页,通过一个为品味而生、不为搜索而生的 feed 分享作品 — Civitai 遇见 Pinterest,为 "AI artist" 不再是个矛盾词的时代而生。声誉来自你交付的东西,而每一次生成都在静默地驱动一个可在链上实时验证的通缩循环。
 
 🌐 官方网站
 https://aivive.ai
@@ -66,22 +66,30 @@ contact@aivive.ai
 
 ## 极简版(短到 1 段,适合空间紧的场景)
 
-> **AI made content infinite. Aivive made one thing scarce — automatically, in public, every time you create.** aivive.ai is its flagship AI image feed: Civitai meets Pinterest, built for taste over search. You create. The token math runs itself.
+> Aivive is the AI-native deflationary economy where every dollar of platform usage destroys some of the project's token, automatically and in public. **aivive.ai** is its flagship AI image generation feed — Civitai meets Pinterest, engineered for taste over search. The taste is the asset. The feed is the market.
 
 (中文)
-> **AI 让内容无限。Aivive 偏要让一样东西稀缺 — 自动、公开、每次创造都触发。** aivive.ai 是其旗舰 AI 图像 feed:Civitai 遇见 Pinterest,为品味而生不为搜索而生。你只管创造,代币那部分自己运转。
+> Aivive 是 AI 原生的通缩经济体,平台每一美元的使用都会自动、公开地销毁一部分代币。**aivive.ai** 是其旗舰 AI 图像生成 feed — Civitai 遇见 Pinterest,为品味而生不为搜索而生。品味即资产。Feed 即市场。
 
 ---
 
-## 单句版(给 Twitter bio / pinned tweet / 海报标题)
+## 单句 anchor 候选(给 Twitter bio / pinned tweet / 海报标题 / KOL 复读)
+
+3 个候选,按场景 A/B test:
 
 ```
-EN:   AI made content infinite. We made one thing scarce.
+A — manifesto 锚句(★ 推荐, 与主版本调性一致):
+   The taste is the asset. The feed is the market.
+   品味即资产。Feed 即市场。
 
-中文: AI 让内容无限。我们偏要让一样东西稀缺。
+B — 对比 punchline:
+   AI made content infinite. We made one thing scarce.
+   AI 让内容无限。我们偏要让一样东西稀缺。
+
+C — 反 chatbox 立场:
+   Forget chatboxes. The next AI surface is a feed.
+   忘掉 chatbox。下一个 AI surface 是 feed。
 ```
-
-10 个英文字 / 12 个中文字。强对比,可作为后续所有 marketing 的 anchor 句。
 
 ---
 

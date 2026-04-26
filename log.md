@@ -367,3 +367,59 @@ Website:    https://aivive.ai
 **未变更**:plan / [[aivive-design]] 颜色系统 / [[avv-token]] 合约信息 / [[aivive-tokenomics]] 不动
 
 ---
+
+## 2026-04-27 — 新产出: Aivive Whitepaper v0.1 draft
+
+**类型**: 新产出 (whitepaper)
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户问 "whitepaper 需要哪些部分,帮我写一个"
+
+**用户拍板**:
+- 版本:**Full Whitepaper 直接上**(20-25 页,跳过 Lite 阶段)
+- 叙事:**A. AI Consumer Economy** — Hero claim "What if the way you fund an AI product was the same as the way you make its asset rarer?"
+
+**新建文件**:
+- `outputs/whitepaper/aivive-whitepaper-v0.1-draft.md` — 完整 12 节 / ~6500 字 EN / ~22-25 印刷页
+
+**12 节结构(对标 ILITY 模板 + Web3 标配)**:
+1. Cover + Disclaimer + Abstract + TOC
+2. §1 Introduction: AI 消费者悖论 (3 种失败模式)
+3. §2 Vision: 三大原则 + 拒绝清单
+4. §3 The Aivive Network: 跨链经济原语
+5. §4 aivive.ai Product: 5 surface + 双循环 + 三 tier
+6. §5 Architecture: 系统总览 + Privy 双钱包 + 内容审核
+7. §6 Tokenomics: 完整规格 + 分配 + 无私募
+8. §7 Token Utility: 三段式资金流 + BNB/GMX/SNX 类比
+9. §8 Roadmap: V1 (60 天) → V1.5 → V2 → V2+
+10. §9 Team: yu-network-srl + taehun-kim + Claude harness
+11. §10 Audits: CertiK + 多签 + 提现完整性
+12. §11 Risk + §12 Resources
+
+**关键叙事 anchor (ILITY-style 吹牛声调)**:
+- "the first AI consumer economy where the act of using the product is, by construction, an act of monetary policy"
+- "a feed, not a chatbox — because culture happens in feeds, search happens in databases"
+- "the user should not be the bank"
+- "use should equal scarcity"
+
+**未引入的争议点**(都已守红线):
+- 没承诺 KuCoin 上线日期(只说"listing application submitted")
+- 没暗示 AVV 价格(只列 TGE FDV 数字)
+- 没主动提 [[red-horse]] 老社区(只在 §9 团队历史背景里点到 RH on MEXC 作为操作 track record)
+
+**更新的 wiki 页**:
+- [[aivive-whitepaper]] — 状态从"未启动"→"v0.1 draft 完成";加 12 节内容地图;清理 narrative open question
+
+**仍 open**:
+- 多签人选 TBD(Squads + Safe)
+- Advisor 名单 TBD
+- CertiK 审计报告链接(待审计完成填)
+- 中文版翻译
+- 官方 docs 站(`aivive.ai/docs/whitepaper`)上线时间
+
+**下一步可选**:
+- 项目方 review v0.1 → 出 v0.2 修订版
+- 视觉版面化(plan §10 W7 排,设计师交付)
+- 中文版(海外 EN 主市场之外的中文 KOL/项目方需要)
+- Lite paper(从 v0.1 抽取 8-12 页精简版)
+
+---

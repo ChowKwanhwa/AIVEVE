@@ -17,6 +17,32 @@ The two chains are connected by **Circle's Cross-Chain Transfer Protocol (CCTP)*
 
 ## 3.3 The Buyback-and-Burn Cycle
 
+```mermaid
+flowchart LR
+    U([User]) -->|USDC payment| BT[Base Treasury<br/>Safe 2-of-3]
+    BT -->|Daily check| TH{Balance<br/>≥ $1k?}
+    TH -->|No| BT
+    TH -->|Yes| BURN[CCTP burn<br/>USDC on Base]
+    BURN -->|Wormhole<br/>attestation ~15min| MINT[CCTP mint<br/>USDC on Solana]
+    MINT --> ST[Solana Treasury<br/>Squads 2-of-3]
+    ST -->|Jupiter swap| SWAP[USDC → AVV<br/>1% slippage cap]
+    SWAP -->|SPL Token Burn| FIRE[(AVV<br/>Permanently<br/>Destroyed)]
+    FIRE -.->|Tx verifiable on| SOL[Solscan]
+    FIRE -.->|Aggregated on| DUNE[Dune dashboard]
+    
+    classDef user fill:#FF8A5C,stroke:#C9572E,color:#08100E
+    classDef treasury fill:#0B7A63,stroke:#4FFFD8,color:#ECF7F2
+    classDef bridge fill:#1F3D34,stroke:#84B0A2,color:#ECF7F2
+    classDef burn fill:#08584A,stroke:#4FFFD8,color:#A8FFEB
+    classDef public fill:#16302A,stroke:#84B0A2,color:#D5EBE2
+    
+    class U user
+    class BT,ST treasury
+    class BURN,MINT,SWAP bridge
+    class FIRE burn
+    class SOL,DUNE public
+```
+
 Every week, the following cycle executes automatically:
 
 1. The Base treasury's accumulated USDC balance is checked against a configured threshold.

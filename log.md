@@ -494,3 +494,34 @@ Website:    https://aivive.ai
 **未变更**:其他章节内容、商业升级(market hook / 公式 / 代码 / 通缩方程)、设计 / tokenomics / 法律实体等
 
 ---
+
+## 2026-04-27 — Whitepaper 加 4 个 Mermaid 图表
+
+**类型**: 视觉化升级
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户:"可以插入一些图表或者图片吗?比如 tokenomics 插入一个饼图"
+
+**方案选型**: GitBook 原生支持 Mermaid 代码块 → 直接 markdown 内嵌图表语法,GitBook 服务端渲染。无需图床、源码可控、品牌色可定制。
+
+**新增 4 个图表**:
+
+| 节 | Mermaid 类型 | 内容 |
+|---|---|---|
+| §1.0 Market Opportunity | `xychart-beta` bar chart | AI image-gen 市场 5 年增长曲线($1.2B 2023 → $50B 2027) |
+| §3.3 Buyback Cycle | `flowchart LR` | USDC → CCTP → Jupiter → SPL Burn 全链路图(7 节点)+ aqua/coral 品牌配色 |
+| **§6.2 Tokenomics** | `pie chart` ★ | 7 类分配饼图(用户点名要的)+ 品牌色 |
+| §7.2 The Three-Segment Loop | `sequenceDiagram` | 6 角色时序图:User / Base Treasury / CCTP / Solana Treasury / Jupiter / AVV |
+
+**品牌色应用**:
+- aqua-500 `#4FFFD8`、aqua-300 `#7BFFE3`、aqua-700 `#0E9E80`
+- coral-500 `#FF8A5C`、coral-400 `#FFA37D`、coral-700 `#C9572E`
+- ink-300 `#84B0A2`、ink-700 `#1F3D34`、ink-950 `#08100E`
+
+**风险点**:
+- `xychart-beta` 是 Mermaid 较新语法(2024+),GitBook 不一定全版本支持渲染
+- 若 §1.0 bar chart 不渲染,数据表保留可作为 fallback
+- pie / flowchart / sequenceDiagram 均为成熟语法,GitBook 渲染稳定
+
+**未变更**:文字内容、章节结构、章节数(仍 14 文件)
+
+---

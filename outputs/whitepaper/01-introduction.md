@@ -11,6 +11,25 @@ The AI generative content market is in the middle of a once-in-a-decade reorderi
 | Independent AI consumer apps (Web/mobile) | ~30 | 800+ | 2,500+ |
 | Weekly active AI image creators | ~5M | ~120M | **300M+** |
 
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {
+  'xyChart': {
+    'plotColorPalette': '#4FFFD8, #FF8A5C',
+    'backgroundColor': '#08100E',
+    'titleColor': '#D5EBE2',
+    'xAxisLabelColor': '#84B0A2',
+    'yAxisLabelColor': '#84B0A2',
+    'xAxisTickColor': '#4A6E62',
+    'yAxisTickColor': '#4A6E62'
+  }
+}}}%%
+xychart-beta
+    title "AI image-gen end-user spend (USD billions)"
+    x-axis ["2023", "2024", "2025", "2026", "2027 proj."]
+    y-axis "USD (B)" 0 --> 60
+    bar [1.2, 4, 9, 18, 50]
+```
+
 > *Sources: industry analyst projections (a16z 2025 State of Generative AI, Sequoia AI Index, Statista). Numbers indicative of order-of-magnitude trajectory rather than precise forecast.*
 
 The technology has democratized; the economics has not. Users today create billions of dollars of generative work each year on platforms whose value capture model — flat subscriptions to centralized AI gateways — was designed in 2023 and has not evolved since. The surplus produced by user creativity flows into a small set of corporate balance sheets and accrues to no one else.

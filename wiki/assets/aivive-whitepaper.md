@@ -45,8 +45,13 @@ outputs/whitepaper/  (14 文件)
 ```
 
 > 2026-04-27 用户反馈调整:
-> - Disclaimer 节已删除(用户:"不需要 disclaimer")— 法律免责仍可在上线前按需补回
+> - Disclaimer 节已删除(用户:"不需要 disclaimer,公开 GitBook 版"),不再补回
 > - OpenAI Ultra tier 模型从 `gpt-image-1` → **`gpt-image-2`**(同步更新到 plan + aivive-app wiki)
+> - 加 4 个 Mermaid 图表(GitBook 原生渲染,markdown 源码可控):
+>   - §1.0 — `xychart-beta` bar chart:AI image-gen 市场 5 年增长曲线
+>   - §3.3 — `flowchart`:USDC → CCTP → Jupiter → SPL Burn 全流程图
+>   - §6.2 — `pie chart`:7 类 tokenomics 分配饼图(★ 用户点名要)
+>   - §7.2 — `sequenceDiagram`:三段式资金流时序图(User / Treasury / CCTP / Jupiter / AVV)
 
 ## v0.1 商业升级版关键新增
 

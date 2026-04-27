@@ -10,6 +10,38 @@ Its sole V1 utility — and, the project argues, its most credible utility — i
 
 ## 7.2 The Three-Segment Loop
 
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as User<br/>(Privy wallet)
+    participant BT as Base Treasury<br/>(Safe 2/3)
+    participant CCTP as Circle CCTP
+    participant ST as Solana Treasury<br/>(Squads 2/3)
+    participant J as Jupiter
+    participant AVV as AVV (SPL)
+    
+    rect rgb(11, 122, 99)
+        Note over U,BT: Segment 1 — User Payment (real-time, on Base)
+        U->>BT: USDC.transfer(amount)
+        BT-->>U: Credits issued (BaseScan tx visible)
+    end
+    
+    rect rgb(31, 61, 52)
+        Note over BT,ST: Segment 2 — Cross-Chain Aggregation (weekly)
+        BT->>CCTP: depositForBurn(USDC, dest=Solana)
+        CCTP-->>CCTP: Attestation proof (~15min)
+        CCTP->>ST: Mint equivalent USDC on Solana
+    end
+    
+    rect rgb(8, 88, 74)
+        Note over ST,AVV: Segment 3 — Buyback & Burn (Solana, automatic)
+        ST->>J: Swap USDC → AVV (1% slippage)
+        J-->>ST: AVV acquired
+        ST->>AVV: SPL Token Burn instruction
+        AVV-->>ST: Supply reduced (Solscan tx)
+    end
+```
+
 The economic loop runs in three segments, each independently observable.
 
 ### Segment 1: User Payment (real-time)

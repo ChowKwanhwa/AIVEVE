@@ -20,6 +20,23 @@
 
 ## 6.2 Distribution
 
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {
+  'pie1':'#4FFFD8','pie2':'#FF8A5C','pie3':'#7BFFE3','pie4':'#FFA37D',
+  'pie5':'#0E9E80','pie6':'#C9572E','pie7':'#84B0A2',
+  'pieTitleTextSize':'18px','pieSectionTextSize':'13px'
+}}}%%
+pie showData
+    title AVV Distribution — 10B Total Supply
+    "Ecosystem & Community (30%)" : 30
+    "Airdrop / Marketing (25%)" : 25
+    "Liquidity (18%)" : 18
+    "Team (10%)" : 10
+    "Treasury (10%)" : 10
+    "Market Maker (5%)" : 5
+    "Advisors (2%)" : 2
+```
+
 | Allocation | % | Amount (AVV) | Purpose |
 |---|---|---|---|
 | Team | 10% | 1,000,000,000 | Core contributors, vesting 2-month cliff + 10-month linear |

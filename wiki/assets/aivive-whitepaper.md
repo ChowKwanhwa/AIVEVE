@@ -1,43 +1,60 @@
 ---
 title: Aivive Whitepaper
 type: asset
-status: v0.1 draft 完成 (2026-04-27)
-tags: [whitepaper, aivive]
+status: v0.1 split + 商业升级 完成 (2026-04-27)
+tags: [whitepaper, aivive, gitbook-ready]
 sources:
   - raw/重启/项目方重启信息.md
-  - outputs/whitepaper/aivive-whitepaper-v0.1-draft.md
+  - outputs/whitepaper/  (multi-page GitBook structure)
 updated: 2026-04-27
 ---
 
 # Aivive Whitepaper
 
-[[aivive]] 的白皮书,由孵化方承接编写。
+[[aivive]] 的白皮书,由孵化方承接编写。已重构为 **GitBook 标准 multi-page 结构**(README + SUMMARY + 13 sections),Git Sync 推到 GitBook 直接渲染成 docs site。
 
-> 来源:raw/重启/项目方重启信息.md;v0.1 draft 起草于 2026-04-27
+> 来源:raw/重启/项目方重启信息.md;v0.1 multi-page split + 商业升级版起草于 2026-04-27
 
 ---
 
 ## 状态
 
-- ✅ **v0.1 draft 完成** — `outputs/whitepaper/aivive-whitepaper-v0.1-draft.md`(12 节 / ~6500 字 / ~22-25 印刷页)
-- 待:项目方 review → 视觉版面(plan §10 W7 排) → 中文版翻译 → 审计完成后填合约地址 → v1.0 发布
+- ✅ **v0.1 multi-page split + 商业升级 完成** — `outputs/whitepaper/`(15 文件 / GitBook-ready)
+- 老的单文件 v0.1-draft.md 已删除(被 multi-page 替代)
+- 待:网络修好 → API/Git Sync 上 GitBook → 项目方 review → 视觉版面(plan §10 W7 排) → 中文版翻译 → 审计完成后填合约地址 → v1.0 发布
 - 不复用 [[red-horse-whitepaper]](老 GitBook 属于历史项目)
 
-## v0.1 draft 包含的 12 节
+## 文件结构(`outputs/whitepaper/`,GitBook-ready)
 
-1. Cover + Disclaimer + Abstract + TOC
-2. **§1 Introduction**: AI 消费者悖论 + 三种失败模式 + Aivive 提问
-3. **§2 Vision**: 三大原则 + 拒绝清单
-4. **§3 The Aivive Network**: 经济原语 / 双链架构 / Buyback-burn cycle
-5. **§4 aivive.ai Product**: 5 个 surface + 双循环 + 三 tier 生成 + 为什么 feed 不是 chatbox
-6. **§5 Architecture**: 系统总览 + Privy 双钱包 + AI 路由 + 内容审核 + credit ledger
-7. **§6 Tokenomics**: 完整规格 + 分配 + 无私募说明
-8. **§7 Token Utility**: 三段式资金流 + 设计依据 + BNB/GMX/SNX 类比
-9. **§8 Roadmap**: V1 (60 天) / V1.5 / V2 / V2+
-10. **§9 Team**: [[yu-network-srl]] + [[taehun-kim]] + Claude harness
-11. **§10 Audits & Compliance**: CertiK + 多签 + 内容审核 + 提现完整性
-12. **§11 Risk Disclosures**: 7 类风险 + 前瞻性声明
-13. **§12 Resources**: 链接 + 技术 reference + 术语表
+```
+outputs/whitepaper/
+├── README.md           Cover + Abstract (含 hero quote + market hook)
+├── SUMMARY.md          GitBook TOC (4 大 Part 分组)
+├── 00-disclaimer.md    法律免责
+├── 01-introduction.md  §1 + §1.0 市场机会(2027 $50B+ 数据表)
+├── 02-vision.md        §2 三大原则 + 拒绝清单
+├── 03-network.md       §3 跨链架构 + buyback-burn cycle
+├── 04-product.md       §4 5 surface + 双循环 + 三 tier
+├── 05-architecture.md  §5 + Drizzle ledger schema 代码 + Alchemy webhook 代码
+├── 06-tokenomics.md    §6 + §6.5 估值公式 + §6.6 Vesting 可视化
+├── 07-token-utility.md §7 + §7.5 通缩方程 + 场景表 + burn cron 伪代码
+├── 08-roadmap.md       §8 V1 → V1.5 → V2 → V2+
+├── 09-team.md          §9 yu-network-srl + taehun-kim + Claude harness
+├── 10-audits.md        §10 CertiK + 多签 + 提现完整性
+├── 11-risks.md         §11 7 类风险
+└── 12-resources.md     §12 链接 + 术语表
+```
+
+## v0.1 商业升级版关键新增
+
+| 节 | 新增内容 |
+|---|---|
+| Abstract | 市场机会 hook($50B+ 2027 投影)+ "AI made content infinite. We made one thing scarce." 锚句 |
+| §1.0 | 新增 "Market Opportunity" 数据表(2023-2027 行业 trend) |
+| §5.5 | Drizzle ORM 真实代码 schema + Alchemy webhook handler 完整 TypeScript |
+| §6.5 | FDV / Initial Market Cap / Circulating Ratio 三个公式推导 |
+| §6.6 | Vesting 可视化 ASCII 时间轴 |
+| §7.5 | 通缩方程 `S(t) = S₀ - ∫₀ᵗ Burn(τ) dτ` + 场景表(4 档 weekly revenue → annualized burn rate)+ swap-and-burn cron 完整 Inngest 伪代码 |
 
 ## 锁定的关键决策
 

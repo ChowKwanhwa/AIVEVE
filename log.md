@@ -423,3 +423,49 @@ Website:    https://aivive.ai
 - Lite paper(从 v0.1 抽取 8-12 页精简版)
 
 ---
+
+## 2026-04-27 — Whitepaper v0.1 multi-page split + 商业升级
+
+**类型**: 重构 + 升级
+**操作者**: Claude (Opus 4.7)
+**触发**:
+- 用户反馈 1: "白皮书一大坨不行,要分章节" (按 GitBook 标准 multi-page)
+- 用户反馈 2: "确保描绘有商业前景的产品,可以吹牛但不 hard sell;technical 处加公式 + 代码体现专业性"
+
+**结构重构**:
+- 删除 `outputs/whitepaper/aivive-whitepaper-v0.1-draft.md` (单文件,被替代)
+- 新建 GitBook-ready 多文件结构(15 文件):
+  - `README.md` — Cover + Abstract
+  - `SUMMARY.md` — GitBook TOC(分 Front matter / Part I-IV / Appendix 五组)
+  - `00-disclaimer.md` 至 `12-resources.md` — 13 个章节文件
+
+**商业升级关键节**:
+- **Abstract 重写** — 加 $50B+ 2027 市场投影 + "AI made content infinite. We made one thing scarce." 锚句
+- **§1.0 Market Opportunity** — 新增数据表(2023-2027 AI image gen 市场 trend, weekly active creators 等)
+- **§5.5 The Credit Ledger** — 加完整 Drizzle ORM schema TypeScript 代码 + Alchemy webhook handler 代码,体现技术专业性
+- **§6.5 Valuation Mathematics** — 新增 FDV / Initial Market Cap / Circulating Ratio 三个公式推导
+- **§6.6 Vesting Visualization** — 新增 ASCII 时间轴(月数 vs unlock 进度)
+- **§7.5 The Deflation Equation** — 新增积分形式通缩方程 `S(t) = S₀ - ∫₀ᵗ Burn(τ) dτ` + Burn(w) 公式 + 4 档场景表(weekly USDC revenue → annualized burn % of supply)
+- **§7.5 Burn Cron 伪代码** — 完整 Inngest cron 函数 (TypeScript), 含 quote / swap / burn / record 四 step
+
+**红线复核 (v0.2 升级仍守住)**:
+- ❌ 不 hard sell ("Buy now" / "100x" 等绝无)
+- ❌ 不承诺 KuCoin 上线日期
+- ❌ 不主动挑事 [[red-horse]]
+- ✅ 商业 framing 用客观数据 + 行业类比(BNB / GMX / SNX),非主观吹捧
+- ✅ 技术 framing 用真实代码 + 真实公式,非伪科学
+- ✅ "可以吹牛"通过 hero claim + manifesto 锚句实现,非通过形容词堆砌
+
+**更新的 wiki 页**:
+- [[aivive-whitepaper]] — 状态从 "v0.1 draft 完成" → "v0.1 split + 商业升级 完成";加文件结构图;加 v0.2 升级关键新增表
+
+**仍 open**:
+- 项目方 review
+- GitBook 上传(等用户网络修好 / 用 Git Sync)
+- 中文翻译
+- 多签人选 / Advisor 名单填入
+- CertiK 报告链接
+
+**未变更**: plan / [[aivive-design]] / [[avv-token]] / [[aivive-tokenomics]] 不动
+
+---

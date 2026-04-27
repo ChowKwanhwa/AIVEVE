@@ -35,7 +35,6 @@ This document specifies the Aivive network primitive, the *aivive.ai* applicatio
 
 Use the sidebar to navigate, or start here:
 
-- **[Disclaimer](00-disclaimer.md)** — legal & forward-looking statements
 - **[Introduction](01-introduction.md)** — the AI consumer paradox
 - **[Vision](02-vision.md)** — a self-funded creative economy
 - **[The Aivive Network](03-network.md)** — economic primitive across Solana + Base

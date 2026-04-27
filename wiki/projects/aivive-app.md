@@ -28,7 +28,7 @@ updated: 2026-04-24
 | 维度 | 决策 |
 |---|---|
 | MVP 形态 | AI Social Feed,5 个 surface(`/feed` `/studio` `/p/[id]` `/u/[handle]` `/me/wallet`) |
-| Hero 模型 | 文生图(top tier:gpt-image-1 / Imagen 4) |
+| Hero 模型 | 文生图(top tier:gpt-image-2 / Imagen 4) |
 | 第二能力 | 文生视频 5s(W3 末 gate;Pika 2.0 / Luma) |
 | V1 占位 | TTS / 声音克隆(Coming Soon + waitlist 收集) |
 | **链布局** | [[avv-token\|AVV]] 在 [[chains/solana\|Solana]];平台支付在 [[chains/base\|Base]] |

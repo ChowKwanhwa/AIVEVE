@@ -469,3 +469,28 @@ Website:    https://aivive.ai
 **未变更**: plan / [[aivive-design]] / [[avv-token]] / [[aivive-tokenomics]] 不动
 
 ---
+
+## 2026-04-27 — Whitepaper v0.1 微调:删 disclaimer + 升级到 gpt-image-2
+
+**类型**: 修订
+**操作者**: Claude (Opus 4.7)
+**触发**: 用户 review 后两个反馈
+
+**变更**:
+1. **删除 Disclaimer 节** (`outputs/whitepaper/00-disclaimer.md` 移除)
+   - 用户:"不需要 disclaimer"
+   - 联动清理:
+     - `SUMMARY.md` — 移除 "Front matter / Disclaimer" 引用
+     - `README.md` — "Read this whitepaper" 段移除 Disclaimer 链接
+   - WP 文件总数:15 → 14
+
+2. **OpenAI Ultra tier 升级**:`gpt-image-1` → `gpt-image-2`
+   - 用户:"最新的 openai 的模型已经到了 image-2 了"
+   - 全仓 sed 替换,联动更新:
+     - `outputs/whitepaper/04-product.md` (Ultra tier 表)
+     - `wiki/projects/aivive-app.md` (Hero 模型决策行)
+     - `~/.claude/plans/aivive-app-...md` (3 处:§2 决策表、§6 路由图、§10 W3 里程碑)
+
+**未变更**:其他章节内容、商业升级(market hook / 公式 / 代码 / 通缩方程)、设计 / tokenomics / 法律实体等
+
+---

@@ -27,14 +27,13 @@ updated: 2026-04-27
 ## 文件结构(`outputs/whitepaper/`,GitBook-ready)
 
 ```
-outputs/whitepaper/
+outputs/whitepaper/  (14 文件)
 ├── README.md           Cover + Abstract (含 hero quote + market hook)
 ├── SUMMARY.md          GitBook TOC (4 大 Part 分组)
-├── 00-disclaimer.md    法律免责
 ├── 01-introduction.md  §1 + §1.0 市场机会(2027 $50B+ 数据表)
 ├── 02-vision.md        §2 三大原则 + 拒绝清单
 ├── 03-network.md       §3 跨链架构 + buyback-burn cycle
-├── 04-product.md       §4 5 surface + 双循环 + 三 tier
+├── 04-product.md       §4 5 surface + 双循环 + 三 tier (Ultra = gpt-image-2)
 ├── 05-architecture.md  §5 + Drizzle ledger schema 代码 + Alchemy webhook 代码
 ├── 06-tokenomics.md    §6 + §6.5 估值公式 + §6.6 Vesting 可视化
 ├── 07-token-utility.md §7 + §7.5 通缩方程 + 场景表 + burn cron 伪代码
@@ -44,6 +43,10 @@ outputs/whitepaper/
 ├── 11-risks.md         §11 7 类风险
 └── 12-resources.md     §12 链接 + 术语表
 ```
+
+> 2026-04-27 用户反馈调整:
+> - Disclaimer 节已删除(用户:"不需要 disclaimer")— 法律免责仍可在上线前按需补回
+> - OpenAI Ultra tier 模型从 `gpt-image-1` → **`gpt-image-2`**(同步更新到 plan + aivive-app wiki)
 
 ## v0.1 商业升级版关键新增
 

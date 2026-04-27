@@ -2,10 +2,6 @@
 
 * [Aivive — The First AI Consumer Economy](README.md)
 
-## Front matter
-
-* [Disclaimer](00-disclaimer.md)
-
 ## Part I — Vision
 
 * [1. Introduction: Where Does the Value Go?](01-introduction.md)

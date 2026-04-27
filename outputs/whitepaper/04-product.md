@@ -38,7 +38,7 @@ Aivive routes generation requests to one of three tiers:
 |---|---|---|---|
 | **Standard** | FLUX.1 Schnell (via fal.ai) | $0.003 | 1 credit |
 | **HD** | FLUX.1 Dev (via fal.ai) | $0.025 | 8 credits |
-| **Ultra** | OpenAI gpt-image-1 / Imagen 4 Ultra | $0.04+ | 15 credits |
+| **Ultra** | OpenAI gpt-image-2 / Imagen 4 Ultra | $0.04+ | 15 credits |
 
 Standard is the daily driver. Ultra is the surface that produces the work most likely to anchor reputation and stand the test of a curated feed. The HD tier sits in between, providing room for experimentation without committing to Ultra-tier cost.
 

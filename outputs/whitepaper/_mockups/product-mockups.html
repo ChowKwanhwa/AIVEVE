@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Aivive — Product Mockups (for §4 Whitepaper)</title>
+<meta name="viewport" content="width=1200">
+<style>
+  /* === Aivive v0.2 brand tokens === */
+  :root {
+    --aqua-200: #A8FFEB;
+    --aqua-300: #7BFFE3;
+    --aqua-400: #5DFFDC;
+    --aqua-500: #4FFFD8;
+    --aqua-600: #1FE8BC;
+    --aqua-700: #0E9E80;
+    --aqua-800: #0B7A63;
+    --aqua-900: #08584A;
+
+    --coral-100: #FFE0D0;
+    --coral-300: #FFBC9D;
+    --coral-400: #FFA37D;
+    --coral-500: #FF8A5C;
+    --coral-700: #C9572E;
+    --coral-900: #7A2F11;
+
+    --ink-0:   #FFFFFF;
+    --ink-50:  #ECF7F2;
+    --ink-100: #D5EBE2;
+    --ink-300: #84B0A2;
+    --ink-500: #4A6E62;
+    --ink-700: #1F3D34;
+    --ink-800: #16302A;
+    --ink-900: #0E2520;
+    --ink-950: #08100E;
+
+    --gradient-brand: linear-gradient(135deg, var(--aqua-500), var(--coral-500));
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    background: var(--ink-950);
+    color: var(--ink-300);
+    font-family: -apple-system, "Geist", "SF Pro", system-ui, sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  body { padding: 60px 40px; }
+
+  .doc-header { max-width: 1200px; margin: 0 auto 60px; }
+  .doc-title { color: var(--ink-100); font-size: 24px; font-weight: 600; margin: 0 0 8px 0; }
+  .doc-sub { color: var(--ink-500); font-size: 14px; }
+
+  .section {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+  }
+  .section-label {
+    color: var(--ink-500);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .section-title {
+    color: var(--ink-100);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+  }
+  .section-desc {
+    color: var(--ink-500);
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  /* === Browser-style mockup container === */
+  .mockup {
+    background: var(--ink-900);
+    border: 1px solid var(--ink-700);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+  .chrome {
+    background: var(--ink-800);
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--ink-700);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .dots { display: flex; gap: 6px; }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--ink-700);
+  }
+  .dot.r { background: var(--coral-500); }
+  .dot.y { background: var(--coral-300); }
+  .dot.g { background: var(--aqua-500); }
+  .url {
+    font-size: 12px;
+    color: var(--ink-500);
+    background: var(--ink-900);
+    padding: 5px 14px;
+    border-radius: 6px;
+    flex: 1;
+    font-family: monospace;
+  }
+
+  /* === Mockup 1: Feed UI === */
+  .feed-tabs {
+    display: flex;
+    gap: 32px;
+    padding: 16px 24px 0;
+    border-bottom: 1px solid var(--ink-700);
+  }
+  .tab {
+    font-size: 14px;
+    color: var(--ink-500);
+    padding-bottom: 14px;
+    cursor: default;
+    position: relative;
+  }
+  .tab.active {
+    color: var(--ink-100);
+    font-weight: 500;
+  }
+  .tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 2px;
+    background: var(--gradient-brand);
+    border-radius: 2px;
+  }
+
+  .feed-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 20px;
+  }
+  .card {
+    background: var(--ink-800);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--ink-700);
+    transition: all 0.2s;
+  }
+  .card-img { height: 200px; }
+  .card:nth-child(1) .card-img {
+    background: radial-gradient(at 30% 30%, var(--aqua-500) 0%, var(--coral-500) 50%, var(--ink-900) 100%);
+  }
+  .card:nth-child(2) .card-img {
+    background: linear-gradient(135deg, var(--coral-500) 0%, var(--aqua-700) 100%);
+  }
+  .card:nth-child(3) .card-img {
+    background:
+      radial-gradient(at 70% 50%, var(--aqua-700), transparent 50%),
+      linear-gradient(180deg, var(--ink-900), var(--ink-700));
+  }
+  .card:nth-child(4) .card-img {
+    background: linear-gradient(45deg, var(--ink-800), var(--coral-500) 50%, var(--aqua-500));
+  }
+  .card:nth-child(5) .card-img {
+    background:
+      radial-gradient(at 50% 50%, var(--coral-700) 0%, var(--aqua-500) 60%, var(--ink-900) 100%);
+  }
+  .card:nth-child(6) .card-img {
+    background: linear-gradient(180deg, var(--aqua-500), var(--ink-800));
+  }
+
+  .card-meta {
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--ink-300);
+  }
+  .avatar {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--gradient-brand);
+    flex-shrink: 0;
+  }
+  .meta-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .meta-stats { color: var(--ink-500); margin-left: auto; font-size: 11px; flex-shrink: 0; }
+
+  /* === Mockup 2: Studio UI === */
+  .studio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+  .field-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-500);
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .prompt-box {
+    background: var(--ink-800);
+    border: 1px solid var(--ink-700);
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 14px;
+    color: var(--ink-100);
+    min-height: 110px;
+    line-height: 1.6;
+  }
+  .chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip {
+    padding: 6px 14px;
+    background: var(--ink-800);
+    border: 1px solid var(--ink-700);
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--ink-300);
+  }
+  .chip.active {
+    background: var(--aqua-900);
+    border-color: var(--aqua-600);
+    color: var(--aqua-300);
+  }
+  .field { margin-bottom: 18px; }
+
+  .generate-btn {
+    background: var(--gradient-brand);
+    color: var(--ink-950);
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+    box-shadow: 0 0 32px rgba(79, 255, 216, 0.25);
+  }
+
+  .preview-wrap { display: flex; flex-direction: column; }
+  .preview {
+    flex: 1;
+    background:
+      radial-gradient(at 30% 30%, var(--aqua-500) 0%, var(--coral-500) 50%, var(--ink-900) 100%);
+    border-radius: 12px;
+    aspect-ratio: 1;
+    position: relative;
+    border: 1px solid var(--ink-700);
+  }
+  .credits-badge {
+    position: absolute;
+    top: 12px; right: 12px;
+    background: rgba(8, 16, 14, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    color: var(--ink-100);
+    border: 1px solid rgba(133, 176, 162, 0.2);
+  }
+
+  /* === Mockup 3: Tiers === */
+  .tiers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 24px;
+  }
+  .tier {
+    background: var(--ink-800);
+    border: 1px solid var(--ink-700);
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+  }
+  .tier.featured {
+    border-color: var(--aqua-700);
+    box-shadow: 0 0 32px rgba(79, 255, 216, 0.15);
+  }
+  .tier.featured::before {
+    content: 'Featured';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--gradient-brand);
+    color: var(--ink-950);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .tier-img {
+    aspect-ratio: 1;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  .tier:nth-child(1) .tier-img {
+    background: linear-gradient(135deg, var(--aqua-700), var(--ink-700) 80%);
+  }
+  .tier:nth-child(2) .tier-img {
+    background:
+      radial-gradient(at 60% 40%, var(--aqua-500), var(--coral-500) 70%, var(--ink-900));
+  }
+  .tier:nth-child(3) .tier-img {
+    background:
+      radial-gradient(at 25% 25%, var(--aqua-500) 0%, transparent 35%),
+      radial-gradient(at 75% 75%, var(--coral-500) 0%, transparent 40%),
+      var(--ink-900);
+  }
+
+  .tier-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--ink-100);
+    margin-bottom: 4px;
+  }
+  .tier-model {
+    font-size: 11px;
+    color: var(--ink-500);
+    margin-bottom: 16px;
+    font-family: monospace;
+  }
+  .tier-credits {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--ink-100);
+    line-height: 1;
+  }
+  .tier-credits-label {
+    font-size: 13px;
+    color: var(--ink-500);
+    font-weight: 400;
+  }
+  .tier-best-for {
+    margin-top: 16px;
+    font-size: 12px;
+    color: var(--ink-300);
+    line-height: 1.5;
+  }
+
+  /* === Print/screenshot guide === */
+  .shot-hint {
+    margin-top: 12px;
+    font-size: 11px;
+    color: var(--ink-500);
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <div class="doc-title">Aivive · Product Mockups</div>
+  <div class="doc-sub">截图本页 3 个 mockup → 贴到 GitBook §4 (aivive.ai: The Flagship Application) 对应位置</div>
+</div>
+
+<!-- ============================================== -->
+<!-- MOCKUP 1: Feed UI -->
+<!-- ============================================== -->
+<div class="section">
+  <div class="section-label">Mockup 1 / aivive.ai/feed</div>
+  <div class="section-title">The Feed — Discovery Surface</div>
+  <div class="section-desc">Trending / Following / New, infinite-scroll grid. Civitai meets Pinterest, made for the AI era.</div>
+
+  <div class="mockup">
+    <div class="chrome">
+      <div class="dots">
+        <div class="dot r"></div>
+        <div class="dot y"></div>
+        <div class="dot g"></div>
+      </div>
+      <div class="url">aivive.ai/feed</div>
+    </div>
+    <div class="feed-tabs">
+      <div class="tab active">Trending</div>
+      <div class="tab">Following</div>
+      <div class="tab">New</div>
+    </div>
+    <div class="feed-grid">
+      <div class="card">
+        <div class="card-img"></div>
+        <div class="card-meta">
+          <div class="avatar"></div>
+          <span class="meta-text">kira_studio · "alive cathedral"</span>
+          <span class="meta-stats">♡ 482</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <div class="card-meta">
+          <div class="avatar"></div>
+          <span class="meta-text">somnambulist · "warm geometry"</span>
+          <span class="meta-stats">♡ 217</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <div class="card-meta">
+          <div class="avatar"></div>
+          <span class="meta-text">vivid_void · "ocean glyph"</span>
+          <span class="meta-stats">♡ 1.2k</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <div class="card-meta">
+          <div class="avatar"></div>
+          <span class="meta-text">noma_x · "future relic"</span>
+          <span class="meta-stats">♡ 89</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <div class="card-meta">
+          <div class="avatar"></div>
+          <span class="meta-text">auralis · "soft circuit"</span>
+          <span class="meta-stats">♡ 663</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <div class="card-meta">
+          <div class="avatar"></div>
+          <span class="meta-text">vesper.io · "luminous tide"</span>
+          <span class="meta-stats">♡ 305</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shot-hint">→ 截这块,粘到 §4.5 "Why a Feed (Not a Chatbox)" 上方</div>
+</div>
+
+<!-- ============================================== -->
+<!-- MOCKUP 2: Studio UI -->
+<!-- ============================================== -->
+<div class="section">
+  <div class="section-label">Mockup 2 / aivive.ai/studio</div>
+  <div class="section-title">The Studio — Generation Surface</div>
+  <div class="section-desc">Prompt + style + tier picker. Right side: live preview + credits balance.</div>
+
+  <div class="mockup">
+    <div class="chrome">
+      <div class="dots">
+        <div class="dot r"></div>
+        <div class="dot y"></div>
+        <div class="dot g"></div>
+      </div>
+      <div class="url">aivive.ai/studio</div>
+    </div>
+    <div class="studio">
+      <div>
+        <div class="field">
+          <div class="field-label">Prompt</div>
+          <div class="prompt-box">an alive cathedral, warm light shafts breaking through aqua glass, photorealistic, soft volumetric atmosphere, 35mm</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Style</div>
+          <div class="chip-row">
+            <div class="chip active">Photoreal</div>
+            <div class="chip">Cinematic</div>
+            <div class="chip">Anime</div>
+            <div class="chip">3D Render</div>
+            <div class="chip">Painterly</div>
+          </div>
+        </div>
+        <div class="field">
+          <div class="field-label">Aspect</div>
+          <div class="chip-row">
+            <div class="chip">1:1</div>
+            <div class="chip active">3:2</div>
+            <div class="chip">16:9</div>
+            <div class="chip">9:16</div>
+          </div>
+        </div>
+        <div class="field">
+          <div class="field-label">Tier</div>
+          <div class="chip-row">
+            <div class="chip">Standard · 1 credit</div>
+            <div class="chip">HD · 8 credits</div>
+            <div class="chip active">Ultra · 15 credits</div>
+          </div>
+        </div>
+        <div class="generate-btn">Generate · 15 credits</div>
+      </div>
+      <div class="preview-wrap">
+        <div class="field-label" style="text-align:right">Preview</div>
+        <div class="preview">
+          <div class="credits-badge">⚡ 87 credits left</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shot-hint">→ 截这块,粘到 §4.4 "Three Generation Tiers" 表格上方,或 §4.2 "Five surfaces" 表格下方</div>
+</div>
+
+<!-- ============================================== -->
+<!-- MOCKUP 3: Tier Comparison -->
+<!-- ============================================== -->
+<div class="section">
+  <div class="section-label">Mockup 3 / Generation tiers</div>
+  <div class="section-title">Three Tiers — Standard / HD / Ultra</div>
+  <div class="section-desc">Same prompt, three quality + cost levels. Standard for daily, Ultra for the wow.</div>
+
+  <div class="mockup">
+    <div class="tiers">
+      <div class="tier">
+        <div class="tier-img"></div>
+        <div class="tier-name">Standard</div>
+        <div class="tier-model">FLUX.1 Schnell · fal.ai</div>
+        <div class="tier-credits">1<span class="tier-credits-label"> credit</span></div>
+        <div class="tier-best-for">Daily driver. Fast iteration on prompt ideas.</div>
+      </div>
+      <div class="tier">
+        <div class="tier-img"></div>
+        <div class="tier-name">HD</div>
+        <div class="tier-model">FLUX.1 Dev · fal.ai</div>
+        <div class="tier-credits">8<span class="tier-credits-label"> credits</span></div>
+        <div class="tier-best-for">Higher fidelity. Worth shipping to feed.</div>
+      </div>
+      <div class="tier featured">
+        <div class="tier-img"></div>
+        <div class="tier-name">Ultra</div>
+        <div class="tier-model">gpt-image-2 · OpenAI</div>
+        <div class="tier-credits">15<span class="tier-credits-label"> credits</span></div>
+        <div class="tier-best-for">Hero-tier output. The pieces that anchor reputation.</div>
+      </div>
+    </div>
+  </div>
+  <div class="shot-hint">→ 截这块,粘到 §4.4 "Three Generation Tiers" 替换或补充表格</div>
+</div>
+
+</body>
+</html>

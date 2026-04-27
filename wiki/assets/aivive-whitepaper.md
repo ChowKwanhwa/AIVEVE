@@ -1,12 +1,13 @@
 ---
 title: Aivive Whitepaper
 type: asset
-status: v0.1 split + 商业升级 完成 (2026-04-27)
-tags: [whitepaper, aivive, gitbook-ready]
+status: live (single canonical version, no versioning)
+tags: [whitepaper, aivive, gitbook]
 sources:
   - raw/重启/项目方重启信息.md
   - outputs/whitepaper/  (multi-page GitBook structure)
-updated: 2026-04-27
+  - github.com/liuyuelan12/aivive-whitepaper (Git Sync source)
+updated: 2026-04-28
 ---
 
 # Aivive Whitepaper

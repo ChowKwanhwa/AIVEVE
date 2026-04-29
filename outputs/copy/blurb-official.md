@@ -8,9 +8,9 @@
 
 ## 🇺🇸 English (主版本)
 
-Aivive is the AI-native deflationary economy built for the consumer-app era. Using on-chain monetary primitives spanning Solana and Base, every dollar of revenue from the platform's AI generation tools is converted into transparent, irreversible token destruction — turning consumer creativity into measurable scarcity rather than middleman margin. This creates a self-funded creative economy where the value of the asset rises with the use of the product, automatically and in public, without users ever needing to hold or stake the token to participate.
+Where does the value go in a typical AI consumer product? To a subscription bill. To a foundation balance sheet. Nowhere a token holder can verify. **Aivive** is the first Recursive AI Protocol — an on-chain economic system spanning Solana and Base where each dollar of revenue from the platform's AI generation tools is converted into transparent, irreversible token destruction. Consumer creativity becomes measurable scarcity rather than middleman margin, automatically and in public, without users ever needing to hold or stake the token to participate.
 
-aivive.ai is the flagship AI image generation feed running on Aivive. It's where AI-generated visual culture meets social discovery for the next wave of internet creators. Designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search — Civitai meets Pinterest, built for the era when "AI artist" stops being a contradiction. Reputation is earned through what you ship, while every generation quietly fuels a deflationary loop verifiable on-chain in real time.
+The flagship surface is a feed, not a chatbox. **aivive.ai** is built for the era when "AI artist" stops being a contradiction — designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Civitai meets Pinterest, with the deflationary loop quietly compounding underneath. Reputation is what you ship. Scarcity is what every generation produces.
 
 🌐 Website
 https://aivive.ai
@@ -37,15 +37,16 @@ contact@aivive.ai
 
 ## 🇨🇳 中文版(用于 Followin / 中文 AMA / 内部分享)
 
-Aivive 是为消费级 AI 应用时代而生的 AI 原生通缩经济体。基于运行在 Solana 与 Base 上的链上货币原语,平台 AI 生成工具产生的每一美元收入,都会被自动转化为透明、不可逆的代币销毁 — 把消费者的创造力,变成可被度量的稀缺性,而非中间方的利润。这构建出一个自我循环的创意经济:产品被使用得越多,资产就越稀缺,自动、公开、不可逆 — 而用户本人无需持有或质押任何代币即可参与。
+AI 消费产品里,价值最终去哪了?变成订阅账单,沉到基金会的资产负债表里,token 持有人完全验证不到。**Aivive** 是第一个 Recursive AI Protocol — 一个跨 Solana 与 Base 运行的链上经济系统,平台 AI 生成工具产生的每一美元收入,都会被自动转化为透明、不可逆的代币销毁。消费者的创造力变成可被度量的稀缺性,而不是中间方的利润 — 自动、公开、不可逆,且用户本人无需持有或质押任何代币就能参与。
 
-aivive.ai 是运行于 Aivive 之上的旗舰 AI 图像生成 feed。它是 AI 生成视觉文化与社交发现的交汇点,服务下一代互联网创作者。设计师、prompt 艺术家、所有被好奇心驱动的人,在这里建立由其真实创作足迹背书的个人主页,通过一个为品味而生、不为搜索而生的 feed 分享作品 — Civitai 遇见 Pinterest,为 "AI artist" 不再是个矛盾词的时代而生。声誉来自你交付的东西,而每一次生成都在静默地驱动一个可在链上实时验证的通缩循环。
+旗舰入口是 feed,不是 chatbox。**aivive.ai** 为 "AI artist" 不再是个矛盾词的时代而生 — 设计师、prompt 艺术家、所有被好奇心驱动的人,在这里建立由其真实创作足迹背书的个人主页,通过一个为品味而生、不为搜索而生的 feed 分享作品。Civitai 遇见 Pinterest,通缩循环在后台静默复利。声誉来自你交付的东西。稀缺性是每一次生成的副产品。
 
 🌐 官方网站
 https://aivive.ai
 
 🔗 X (Twitter)
 https://x.com/AIVIVEHQ
+
 
 📨 Telegram
 https://t.me/AIVIVEHQ

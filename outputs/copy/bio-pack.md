@@ -105,9 +105,9 @@ Site: aivive.ai · @AIVIVEHQ on X
 ### 主版本
 
 ```
-Aivive is the first Recursive AI Protocol (RAP) — a new on-chain economic system where the act of using an AI product directly compresses the supply of the protocol's underlying asset, automatically and verifiably. Every dollar of revenue earned by the platform's AI generation tools is converted, on a public weekly schedule, into permanent destruction of $AVV. There is no human in the burn pipeline, no off-chain discretion, and no requirement that users hold the token to participate.
+Where does the value go in a typical AI consumer product? To a subscription bill. To a foundation balance sheet. Nowhere a token holder can verify. **Aivive** is the first Recursive AI Protocol (RAP) — an on-chain economic system where each act of using an AI product directly compresses the supply of the protocol's underlying asset. Every dollar of revenue is converted, on a public weekly schedule, into permanent destruction of $AVV. No human in the burn pipeline. No off-chain discretion. No requirement that users hold the token to participate.
 
-aivive.ai is the flagship surface running on Aivive — an AI image generation feed where AI-generated visual culture meets social discovery for the era when "AI artist" stops being a contradiction. Designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Civitai meets Pinterest, with a deflationary loop quietly compounding underneath. Reputation is what you ship. Scarcity is what every generation produces.
+The flagship surface is a feed, not a chatbox. **aivive.ai** is built for the era when "AI artist" stops being a contradiction — designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Civitai meets Pinterest, with the deflationary loop quietly compounding underneath. Reputation is what you ship. Scarcity is what every generation produces.
 
 🌐 Website
 https://aivive.ai

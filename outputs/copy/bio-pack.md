@@ -1,7 +1,8 @@
-# Aivive — Bio Pack(神秘期)
+# Aivive — Bio Pack
 
-> 阶段:V1 mystery — 不揭品类 / 不揭代币 / 不揭团队 / 不揭机制
 > 4 个对外出口:Twitter Bio · YouTube Description · Medium Description · Telegram Blurb
+> 这些是"被点开看"的入口 — 给 substance,**不**藏品类、机制、token。
+> (Tweet feed 层另议,神秘期推文池在 `outputs/tweet/`)
 
 ---
 
@@ -10,92 +11,109 @@
 ### ★ 主推
 
 ```
-AI that gives.
-alive · warm · sharp
-
-aivive.ai · soon ↻
-```
-
-### 备选 1 — 多一点态度
-
-```
-The math is finished. The rest is patience.
-
-aivive.ai · soon ↻
-```
-
-### 备选 2 — 工程师向
-
-```
-Generation is solved. Taste isn't.
-
-We're working on the second.
+The first Recursive AI Protocol.
+AI image feed where every dollar of revenue burns $AVV on-chain.
 
 aivive.ai
 ```
+~115 字符
+
+### 备选 1 — 短 punchline 版
+
+```
+Recursive AI Protocol. AI image feed.
+The taste is the asset. The feed is the market.
+
+aivive.ai
+```
+~100 字符
+
+### 备选 2 — manifesto 锚句版
+
+```
+AI made content infinite. We made one thing scarce.
+
+aivive.ai · the first Recursive AI Protocol
+```
+~95 字符
 
 ---
 
 ## 2. YouTube Channel Description
 
 ```
-Aivive — alive · warm · sharp.
+Aivive — the first Recursive AI Protocol.
 
-We're building something at the intersection
-of AI and what comes after.
+A new on-chain economic system where the act of using
+an AI product directly compresses the supply of the
+protocol's underlying asset, automatically and verifiably.
 
-This channel is for: process, taste, and
-the occasional clue.
+The flagship application: aivive.ai — an AI image
+generation feed where every dollar of revenue is converted
+into permanent on-chain destruction of $AVV.
+
+Civitai meets Pinterest, built for the era when
+"AI artist" stops being a contradiction.
+
+This channel: process, taste, design philosophy, and
+build-in-public clips from the team shipping it.
 
 —
 
 Website     · aivive.ai
-X           · x.com/AIVIVEHQ
+Whitepaper  · aivive.gitbook.io
+X (Twitter) · x.com/AIVIVEHQ
 Telegram    · t.me/AIVIVEHQ
 Medium      · medium.com/@aivive
 Link3       · link3.to/aivive
-Contact     · contact@aivive.ai
-
-soon ↻
+Email       · contact@aivive.ai
 ```
 
 ---
 
 ## 3. Medium Description
 
-### Author bio(短,~160 char)
+### Author bio(160 char,放在每篇文章作者卡)
 
 ```
-Aivive — alive · warm · sharp.
-A new kind of AI thing. aivive.ai · soon ↻
+Aivive — the first Recursive AI Protocol.
+AI image feed + on-chain deflationary loop.
+aivive.ai · $AVV on Solana
 ```
 
-### Publication description(长,放在专栏首页)
+### Publication description(放在专栏首页)
 
 ```
-Long-form notes from the team building Aivive —
-something new at the intersection of AI and what comes next.
+Long-form notes from the team building Aivive — the first
+Recursive AI Protocol.
 
-We write about: AI engineering craft, design philosophy,
-product taste, and the occasional clue about what we're shipping.
+We write about: AI engineering craft, on-chain monetary
+mechanics, design philosophy, product taste, and the
+weekly buyback-burn cycle that turns user creativity
+into measurable token scarcity.
 
-aivive.ai · @AIVIVEHQ on X
-soon ↻
+Token: $AVV on Solana
+Payment: USDC on Base
+Whitepaper: aivive.gitbook.io
+Site: aivive.ai · @AIVIVEHQ on X
 ```
 
 ---
 
-## 4. Telegram Blurb(适合 DM / 群里转发,带链接)
+## 4. Telegram Blurb(★ ILITY 风格长版本,适合 DM / 群转发)
 
-### ★ 主版本(ILITY 风格,两段 + 链接列表)
+### 主版本
 
 ```
-Aivive is a new kind of AI project we've been quietly building for the past several months. We started with a simple observation: today's AI consumer products are subscription middlemen — extracting the surplus your creativity produces and offering nothing in return but a monthly bill, repeated. There's a better shape for this, and we've been putting one together. The math is finished. The rest is patience.
+Aivive is the first Recursive AI Protocol (RAP) — a new on-chain economic system where the act of using an AI product directly compresses the supply of the protocol's underlying asset, automatically and verifiably. Every dollar of revenue earned by the platform's AI generation tools is converted, on a public weekly schedule, into permanent destruction of $AVV. There is no human in the burn pipeline, no off-chain discretion, and no requirement that users hold the token to participate.
 
-aivive.ai is the flagship surface running on Aivive — a consumer feed where AI-generated visual culture meets social discovery for the era when "AI artist" stops being a contradiction. Designers, prompt artists, and the curious build profiles backed by what they actually ship, share work in a feed engineered for taste over search, and find each other through the work itself. Think Civitai meets Pinterest, with one underlying mechanism the project is building toward — and that we'll explain when it's ready.
+aivive.ai is the flagship surface running on Aivive — an AI image generation feed where AI-generated visual culture meets social discovery for the era when "AI artist" stops being a contradiction. Designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Civitai meets Pinterest, with a deflationary loop quietly compounding underneath. Reputation is what you ship. Scarcity is what every generation produces.
 
 🌐 Website
 https://aivive.ai
+
+📄 Whitepaper
+https://aivive.gitbook.io
 
 🔗 X (Twitter)
 https://x.com/AIVIVEHQ
@@ -114,65 +132,50 @@ https://link3.to/aivive
 
 📧 Email
 contact@aivive.ai
-
-soon ↻
 ```
 
-### 中版本(emoji 紧凑链接,2 段精简)
+### 中版本(短一点,带 emoji 紧凑链接)
 
 ```
-Aivive — alive · warm · sharp.
+Aivive — the first Recursive AI Protocol.
 
-A new kind of AI project we've been quietly building.
-Generation is solved. Taste isn't. We're working on the second.
+AI image feed + on-chain deflationary loop. Every dollar
+of platform revenue burns $AVV on Solana, automatically
+and verifiably, on a public weekly schedule.
+
+Civitai meets Pinterest, with a deflationary engine quietly
+compounding underneath.
 
 🌐 aivive.ai
+📄 aivive.gitbook.io
 🔗 x.com/AIVIVEHQ
 📨 t.me/AIVIVEHQ
 🎬 youtube.com/@AIVIVEHQ
 ✍️ medium.com/@aivive
 🌐 link3.to/aivive
 📧 contact@aivive.ai
-
-soon ↻
 ```
 
-### 极简版(空间紧场景 / 群组消息底部签名)
+### 极简版(空间紧 / 签名)
 
 ```
-Aivive — the math is finished. The rest is patience.
+Aivive — the first Recursive AI Protocol.
+$AVV on Solana. AI image feed. Use → burn → scarcity.
 
-aivive.ai · @AIVIVEHQ on X / TG / YT
-soon ↻
+aivive.ai · @AIVIVEHQ
 ```
 
-### 一句话版(给你认识的人在 DM 一句"什么项目?"时回)
+### 一句话版(DM "什么项目?" 时回)
 
 ```
-Aivive — a new AI thing.
-Generation is solved, taste isn't, that's the gap we're working on.
-aivive.ai · soon ↻
-```
-
----
-
-## 红线复核(全 4 个出口)
-
-```
-❌ 不出现 ticker / 品类名 / 团队名
-❌ 不提交易所 / TGE 日期 / 价格
-❌ 不提 Solana / Base / 任何技术 stack
-❌ 不提 burn / 销毁 / deflationary 机制
-
-✅ 大写品牌词 Aivive / Give / Vive
-✅ "soon" / "↻" 等神秘符号
-✅ 调性:Direct / Warm / Confident
-✅ Civitai / Pinterest 类比可用(行业参照, 不揭自己)
+Aivive — first Recursive AI Protocol.
+AI image feed where every $1 of revenue burns $AVV on-chain.
+aivive.ai
 ```
 
 ---
 
-## handle 复核
+## handle 速查
 
 ```
 Twitter:    @AIVIVEHQ        x.com/AIVIVEHQ
@@ -182,4 +185,18 @@ Medium:     @aivive          medium.com/@aivive
 Link3:      aivive           link3.to/aivive
 Email:      contact@aivive.ai
 Website:    aivive.ai
+Whitepaper: aivive.gitbook.io  (待 GitBook 公开 URL 确认后更新)
+```
+
+---
+
+## 红线(只有这两条)
+
+```
+❌ 不承诺 KuCoin / Bitget 上线日期 (交易所 PR 权)
+❌ 不暗示价格 / 涨幅 / "100x" / "to the moon"
+
+✅ 可以说 ticker / RAP / 链 / 机制 / 团队
+✅ 可以说 deflationary / buyback / burn
+✅ 可以说 Solana / Base / USDC / on-chain
 ```

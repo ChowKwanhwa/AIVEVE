@@ -12,26 +12,10 @@ Aivive is the first Recursive AI Protocol (RAP) — a new category at the inters
 
 The flagship surface is a feed, not a chatbox. **aivive.ai** is built for the era when "AI artist" stops being a contradiction — designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Generations route through three quality tiers (Standard, HD, Ultra), priced in USDC and credited instantly; the platform's accumulated revenue feeds the weekly burn cycle quietly compounding underneath. Civitai meets Pinterest, with a deflationary engine running on a public schedule. Reputation is what you ship. Scarcity is what every generation produces.
 
-🌐 Website
-https://aivive.ai
-
-🔗 X (Twitter)
-https://x.com/AIVIVEHQ
-
-📨 Telegram
-https://t.me/AIVIVEHQ
-
-🎬 YouTube
-https://www.youtube.com/@AIVIVEHQ
-
-✍️ Medium
-https://medium.com/@aivive
-
-🌐 Link3
-https://link3.to/aivive
-
-📧 Email
-contact@aivive.ai
+🌐 https://aivive.ai  |  🔗 https://x.com/AIVIVEHQ
+📨 https://t.me/AIVIVEHQ  |  🎬 https://www.youtube.com/@AIVIVEHQ
+✍️ https://medium.com/@aivive  |  🌐 https://link3.to/aivive
+📧 contact@aivive.ai
 
 ---
 
@@ -41,27 +25,10 @@ Aivive 是第一个 Recursive AI Protocol (RAP) — 一个全新品类,落在 AI
 
 旗舰入口是 feed,不是 chatbox。**aivive.ai** 为 "AI artist" 不再是个矛盾词的时代而生 — 设计师、prompt 艺术家、所有被好奇心驱动的人,在这里建立由其真实创作足迹背书的个人主页,通过一个为品味而生、不为搜索而生的 feed 分享作品。生成走三档质量 tier(Standard / HD / Ultra),用 USDC 计价、即时入账;平台累积收入喂给每周的销毁循环,在后台静默复利。Civitai 遇见 Pinterest,通缩引擎按公开排程运转。声誉来自你交付的东西。稀缺性是每一次生成的副产品。
 
-🌐 官方网站
-https://aivive.ai
-
-🔗 X (Twitter)
-https://x.com/AIVIVEHQ
-
-
-📨 Telegram
-https://t.me/AIVIVEHQ
-
-🎬 YouTube
-https://www.youtube.com/@AIVIVEHQ
-
-✍️ Medium
-https://medium.com/@aivive
-
-🌐 Link3
-https://link3.to/aivive
-
-📧 邮箱
-contact@aivive.ai
+🌐 https://aivive.ai  |  🔗 https://x.com/AIVIVEHQ
+📨 https://t.me/AIVIVEHQ  |  🎬 https://www.youtube.com/@AIVIVEHQ
+✍️ https://medium.com/@aivive  |  🌐 https://link3.to/aivive
+📧 contact@aivive.ai
 
 ---
 

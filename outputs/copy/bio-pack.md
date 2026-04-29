@@ -105,33 +105,14 @@ Site: aivive.ai · @AIVIVEHQ on X
 ### 主版本
 
 ```
-Aivive is the first Recursive AI Protocol (RAP) — a new category at the intersection of AI consumer products and on-chain economic mechanics. The premise is simple: today's AI products run on a Web2 default — monthly subscriptions in, surplus out, no value accrual to the network underwriting them. Aivive flips that shape. We're building a consumer-grade AI surface where the act of using the product is, by construction, the issuance event for the network beneath it: every dollar of platform revenue is converted, on a public weekly schedule, into permanent on-chain destruction of $AVV. The mechanism is verifiable end-to-end (USDC on Base → Circle CCTP → Solana → Jupiter swap → SPL Token Burn) — but the deflationary loop is the credibility test, not the identity. What's actually being built is a category where usage and scarcity become the same variable, and the more cultural relevance the product earns, the rarer the underlying asset becomes, irreversibly and on a fixed schedule.
+Aivive is the first Recursive AI Protocol (RAP) — a new category at the intersection of AI consumer products and on-chain economic mechanics. The premise is simple: today's AI products run on a Web2 default — monthly subscriptions in, surplus out, no value accrual to the network underwriting them. Aivive flips that shape. We're building a consumer-grade AI surface where the act of using the product is, by construction, the issuance event for the network beneath it: every dollar of platform revenue is converted, on a public weekly schedule, into permanent on-chain destruction of $AVV. What's actually being built is a category where usage and scarcity become the same variable, and the more cultural relevance the product earns, the rarer the underlying asset becomes, irreversibly and on a fixed schedule.
 
 The flagship surface is a feed, not a chatbox. **aivive.ai** is built for the era when "AI artist" stops being a contradiction — designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Generations route through three quality tiers (Standard, HD, Ultra), priced in USDC and credited instantly; the platform's accumulated revenue feeds the weekly burn cycle quietly compounding underneath. Civitai meets Pinterest, with a deflationary engine running on a public schedule. Reputation is what you ship. Scarcity is what every generation produces.
 
-🌐 Website
-https://aivive.ai
-
-📄 Whitepaper
-https://aivive.gitbook.io
-
-🔗 X (Twitter)
-https://x.com/AIVIVEHQ
-
-📨 Telegram
-https://t.me/AIVIVEHQ
-
-🎬 YouTube
-https://www.youtube.com/@AIVIVEHQ
-
-✍️ Medium
-https://medium.com/@aivive
-
-🌐 Link3
-https://link3.to/aivive
-
-📧 Email
-contact@aivive.ai
+🌐 https://aivive.ai  |  📄 https://aivive.gitbook.io
+🔗 https://x.com/AIVIVEHQ  |  📨 https://t.me/AIVIVEHQ
+🎬 https://www.youtube.com/@AIVIVEHQ  |  ✍️ https://medium.com/@aivive
+🌐 https://link3.to/aivive  |  📧 contact@aivive.ai
 ```
 
 ### 中版本(短一点,带 emoji 紧凑链接)
@@ -146,14 +127,10 @@ and verifiably, on a public weekly schedule.
 Civitai meets Pinterest, with a deflationary engine quietly
 compounding underneath.
 
-🌐 aivive.ai
-📄 aivive.gitbook.io
-🔗 x.com/AIVIVEHQ
-📨 t.me/AIVIVEHQ
-🎬 youtube.com/@AIVIVEHQ
-✍️ medium.com/@aivive
-🌐 link3.to/aivive
-📧 contact@aivive.ai
+🌐 aivive.ai  |  📄 aivive.gitbook.io
+🔗 x.com/AIVIVEHQ  |  📨 t.me/AIVIVEHQ
+🎬 youtube.com/@AIVIVEHQ  |  ✍️ medium.com/@aivive
+🌐 link3.to/aivive  |  📧 contact@aivive.ai
 ```
 
 ### 极简版(空间紧 / 签名)

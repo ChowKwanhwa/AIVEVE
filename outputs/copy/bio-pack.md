@@ -87,7 +87,38 @@ soon ↻
 
 ## 4. Telegram Blurb(适合 DM / 群里转发,带链接)
 
-### ★ 主版本
+### ★ 主版本(ILITY 风格,两段 + 链接列表)
+
+```
+Aivive is a new kind of AI project we've been quietly building for the past several months. We started with a simple observation: today's AI consumer products are subscription middlemen — extracting the surplus your creativity produces and offering nothing in return but a monthly bill, repeated. There's a better shape for this, and we've been putting one together. The math is finished. The rest is patience.
+
+aivive.ai is the flagship surface running on Aivive — a consumer feed where AI-generated visual culture meets social discovery for the era when "AI artist" stops being a contradiction. Designers, prompt artists, and the curious build profiles backed by what they actually ship, share work in a feed engineered for taste over search, and find each other through the work itself. Think Civitai meets Pinterest, with one underlying mechanism the project is building toward — and that we'll explain when it's ready.
+
+🌐 Website
+https://aivive.ai
+
+🔗 X (Twitter)
+https://x.com/AIVIVEHQ
+
+📨 Telegram
+https://t.me/AIVIVEHQ
+
+🎬 YouTube
+https://www.youtube.com/@AIVIVEHQ
+
+✍️ Medium
+https://medium.com/@aivive
+
+🌐 Link3
+https://link3.to/aivive
+
+📧 Email
+contact@aivive.ai
+
+soon ↻
+```
+
+### 中版本(emoji 紧凑链接,2 段精简)
 
 ```
 Aivive — alive · warm · sharp.

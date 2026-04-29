@@ -17,7 +17,7 @@
 
 In the [last essay](#)¹, we made the case that a user of a Recursive AI Protocol shouldn't have to hold the token. The user pays in stablecoin. The protocol handles the token mechanics. Two populations, one protocol, same alignment.
 
-This essay is about the *handles* — the actual mechanics by which platform revenue, collected in stablecoin from users who never see the token, becomes a permanent on-chain reduction in the supply of that token, on a public weekly schedule, with no human in the path.
+This essay is about the *handles* — the actual mechanics by which a programmable share of platform revenue, collected in stablecoin from users who never see the token, becomes a permanent on-chain reduction in the supply of that token, on a public weekly schedule, with no human in the path.
 
 We've been calling this the loop. Today, we open the hood.
 

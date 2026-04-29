@@ -8,7 +8,7 @@
 
 ## 🇺🇸 English (主版本)
 
-Aivive is the first Recursive AI Protocol (RAP) — a new category at the intersection of AI consumer products and on-chain economic mechanics. The premise is simple: today's AI products run on a Web2 default — monthly subscriptions in, surplus out, no value accrual to the network underwriting them. Aivive flips that shape. We're building a consumer-grade AI surface where the act of using the product is, by construction, the issuance event for the network beneath it: every dollar of platform revenue is converted, on a public weekly schedule, into permanent on-chain destruction of $AVV. The mechanism is verifiable end-to-end (USDC on Base → Circle CCTP → Solana → Jupiter swap → SPL Token Burn) — but the deflationary loop is the credibility test, not the identity. What's actually being built is a category where usage and scarcity become the same variable, and the more cultural relevance the product earns, the rarer the underlying asset becomes, irreversibly and on a fixed schedule.
+Aivive is the first Recursive AI Protocol (RAP) — a new category at the intersection of AI consumer products and on-chain economic mechanics. The premise is simple: today's AI products run on a Web2 default — monthly subscriptions in, surplus out, no value accrual to the network underwriting them. Aivive flips that shape. We're building a consumer-grade AI surface where the act of using the product is, by construction, an issuance event for the network beneath it: a programmable share of platform revenue is routed, on a public weekly schedule, into permanent on-chain destruction of $AVV. The mechanism is verifiable end-to-end (USDC on Base → Circle CCTP → Solana → Jupiter swap → SPL Token Burn) — but the deflationary loop is the credibility test, not the identity. What's actually being built is a category where usage and scarcity become the same variable, and the more cultural relevance the product earns, the rarer the underlying asset becomes, irreversibly and on a fixed schedule.
 
 The flagship surface is a feed, not a chatbox. **aivive.ai** is built for the era when "AI artist" stops being a contradiction — designers, prompt artists, and the curious build profiles backed by their actual creative footprint and share work through a feed engineered for taste over search. Generations route through three quality tiers (Standard, HD, Ultra), priced in USDC and credited instantly; the platform's accumulated revenue feeds the weekly burn cycle quietly compounding underneath. Civitai meets Pinterest, with a deflationary engine running on a public schedule. Reputation is what you ship. Scarcity is what every generation produces.
 
@@ -21,7 +21,7 @@ The flagship surface is a feed, not a chatbox. **aivive.ai** is built for the er
 
 ## 🇨🇳 中文版(用于 Followin / 中文 AMA / 内部分享)
 
-Aivive 是第一个 Recursive AI Protocol (RAP) — 一个全新品类,落在 AI 消费产品与链上经济机制的交集上。前提很简单:今天的 AI 产品跑在 Web2 默认范式上 — 订阅进、剩余出、底层网络拿不到任何价值积累。Aivive 翻转了这个形态。我们在搭一个消费级 AI 入口,在这里,使用产品的行为本身就是底层网络的发行事件:平台收入的每一美元,都按公开的每周排程,被自动转化为 $AVV 的永久链上销毁。机制端到端可验证(USDC on Base → Circle CCTP → Solana → Jupiter swap → SPL Token Burn) — 但通缩循环只是信用测试,不是 identity 本身。真正在构建的是一个新品类:在这里,使用量和稀缺性成为同一个变量,产品赢得的文化相关性越多,底层资产就越稀缺,不可逆,按固定时间表执行。
+Aivive 是第一个 Recursive AI Protocol (RAP) — 一个全新品类,落在 AI 消费产品与链上经济机制的交集上。前提很简单:今天的 AI 产品跑在 Web2 默认范式上 — 订阅进、剩余出、底层网络拿不到任何价值积累。Aivive 翻转了这个形态。我们在搭一个消费级 AI 入口,在这里,使用产品的行为本身就是底层网络的一次发行事件:平台收入中可编程的一部分,按公开的每周排程,被自动路由进 $AVV 的永久链上销毁。机制端到端可验证(USDC on Base → Circle CCTP → Solana → Jupiter swap → SPL Token Burn) — 但通缩循环只是信用测试,不是 identity 本身。真正在构建的是一个新品类:在这里,使用量和稀缺性成为同一个变量,产品赢得的文化相关性越多,底层资产就越稀缺,不可逆,按固定时间表执行。
 
 旗舰入口是 feed,不是 chatbox。**aivive.ai** 为 "AI artist" 不再是个矛盾词的时代而生 — 设计师、prompt 艺术家、所有被好奇心驱动的人,在这里建立由其真实创作足迹背书的个人主页,通过一个为品味而生、不为搜索而生的 feed 分享作品。生成走三档质量 tier(Standard / HD / Ultra),用 USDC 计价、即时入账;平台累积收入喂给每周的销毁循环,在后台静默复利。Civitai 遇见 Pinterest,通缩引擎按公开排程运转。声誉来自你交付的东西。稀缺性是每一次生成的副产品。
 
@@ -34,10 +34,10 @@ Aivive 是第一个 Recursive AI Protocol (RAP) — 一个全新品类,落在 AI
 
 ## 极简版(短到 1 段,适合空间紧的场景)
 
-> Aivive is the AI-native deflationary economy where every dollar of platform usage destroys some of the project's token, automatically and in public. **aivive.ai** is its flagship AI image generation feed — Civitai meets Pinterest, engineered for taste over search. The taste is the asset. The feed is the market.
+> Aivive is the AI-native deflationary economy where a programmable share of platform usage destroys some of the project's token, automatically and in public. **aivive.ai** is its flagship AI image generation feed — Civitai meets Pinterest, engineered for taste over search. The taste is the asset. The feed is the market.
 
 (中文)
-> Aivive 是 AI 原生的通缩经济体,平台每一美元的使用都会自动、公开地销毁一部分代币。**aivive.ai** 是其旗舰 AI 图像生成 feed — Civitai 遇见 Pinterest,为品味而生不为搜索而生。品味即资产。Feed 即市场。
+> Aivive 是 AI 原生的通缩经济体,平台使用产生的可编程部分收入会自动、公开地销毁项目代币。**aivive.ai** 是其旗舰 AI 图像生成 feed — Civitai 遇见 Pinterest,为品味而生不为搜索而生。品味即资产。Feed 即市场。
 
 ---
 

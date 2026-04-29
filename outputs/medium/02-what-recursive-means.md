@@ -35,7 +35,7 @@ In the context of an AI consumer protocol, the recursion looks like this:
 
 > **Use → Revenue → Supply ↓ → Value ↑ → More Use**
 
-The user uses the product. The product generates revenue. The revenue is converted, mechanically and verifiably, into a reduction of the protocol's underlying asset supply. The reduction in supply, all else equal, increases the per-unit value of the asset. That increase in per-unit value attracts new users, who use the product, generating more revenue, compressing supply further.
+The user uses the product. The product generates revenue. A programmable share of that revenue is routed, mechanically and verifiably, into a reduction of the protocol's underlying asset supply. The reduction in supply, all else equal, increases the per-unit value of the asset. That increase in per-unit value attracts new users, who use the product, generating more revenue, compressing supply further.
 
 Each turn of the loop reinforces the next.
 

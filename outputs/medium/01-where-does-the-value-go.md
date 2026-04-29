@@ -54,7 +54,7 @@ We started thinking about a different shape in early 2025. The premise was simpl
 
 Not as a marketing claim. As a deterministic on-chain function.
 
-What if every dollar of revenue the platform earned were, by design, converted into a measurable reduction of the underlying asset's supply? What if the loop ran on a public schedule, with every step verifiable by anyone, automatically, without human discretion? What if the user never had to hold the token to use the product — but every act of creation nonetheless contributed to the asset's compounding scarcity?
+What if a programmable share of every dollar of revenue the platform earned were, by design, routed into a measurable reduction of the underlying asset's supply? What if the loop ran on a public schedule, with every step verifiable by anyone, automatically, without human discretion? What if the user never had to hold the token to use the product — but every act of creation nonetheless contributed to the asset's compounding scarcity?
 
 This isn't a thought experiment. The mechanics are well-understood. The buyback-and-burn pattern has been refined for years across crypto — BNB pioneered it at scale, GMX adapted it for derivatives, Jupiter has been iterating on it on Solana. None of them, until now, has applied it cleanly to the new wave of AI consumer applications.
 

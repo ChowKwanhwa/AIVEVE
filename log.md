@@ -525,3 +525,29 @@ Website:    https://aivive.ai
 **未变更**:文字内容、章节结构、章节数(仍 14 文件)
 
 ---
+
+## 2026-05-05 — design system v0.2:serif 切换为 Instrument Serif + 新增本仓库字体源
+
+**触发**:Claude Design(Anthropic Labs 网页 design 工具)在 Aivive Design System 项目里报 "Missing brand fonts",需要上传字体文件;借此机会重审字体选型。
+
+**调整**:
+- **Serif 由 IBM Plex Serif → Instrument Serif**。理由:Instrument Serif italic 更贴 §1.3 "warm + alive" 调性,与 §3.4 "The AI that gives" 的 italic 强调用法天然适配;IBM Plex 偏 tech-corporate,不匹配 Aivive 的 editorial-soft 路线。
+- **新增字体源** `wiki/design/assets/fonts/`,共 8 个 woff2(从 Fontsource jsDelivr CDN):Geist 400/500/600/700、Instrument Serif 400 normal/italic、Geist Mono 400/500。总计 144KB。
+
+**影响页面**(全部已同步):
+- `wiki/design/aivive-design.md`(单一事实源,§3.1 字体栈 + §13 versioning 升级到 v0.2 + frontmatter updated)
+- `wiki/ops/designer-hiring.md`(招聘文档,2 处)
+- `wiki/ops/social-content-bank-v1-mystery-phase.md`(社媒内容库,2 处)
+- `outputs/banner-prompt-aivive-hero.md`(banner prompt,1 处)
+- `outputs/poster/海报brief.md`(海报 brief,5 处)
+- `exports/designer-hiring.md`(导出版,1 处)
+- `aiavive-app/app/layout.tsx`(`IBM_Plex_Serif` → `Instrument_Serif` next/font/google import + var name)
+- `aiavive-app/app/globals.css`(`--font-display` 指向新 var)
+- `aiavive-app/app/page.tsx`(注释)
+- `aiavive-app/lib/design/tokens.ts`(`fonts.serif` token)
+
+**未动**:`log.md` 第 123 行的历史日志条目(审计轨迹保留)。
+
+**待执行(网页操作)**:用户需手动把 8 个 woff2 拖到 Claude Design → Aivive Design System 项目的 "Upload fonts",并标好 family/weight/style。完成后 "Missing brand fonts" 提示消失。
+
+**Open**:Aivive 中文名仍未定(同 wiki/design/aivive-design.md §12.1)。

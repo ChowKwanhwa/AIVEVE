@@ -8,7 +8,7 @@ sources:
   - wiki/design/references/framer-DESIGN.md
   - wiki/design/references/linear-DESIGN.md
   - wiki/design/references/cal-DESIGN.md
-updated: 2026-04-18
+updated: 2026-05-05
 ---
 # Aivive Design System
 
@@ -131,12 +131,12 @@ updated: 2026-04-18
 
 ```
 --font-sans: "Geist", "Inter", system-ui, -apple-system, sans-serif;
---font-serif: "IBM Plex Serif", "Source Serif Pro", Georgia, serif;
+--font-serif: "Instrument Serif", "Source Serif Pro", Georgia, serif;
 --font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
 ```
 
 - **主字体 Geist**:承载 95% 的文本。现代、中性、有科技感但不冷。
-- **衬线字体 IBM Plex Serif**:**仅**用于关键词级强调 —— 当 "Give" / "Vive" / "Aivive" 作为一个单独的词出现在大标题里,用衬线体。其他地方**不用**。
+- **衬线字体 Instrument Serif**:**仅**用于关键词级强调 —— 当 "Give" / "Vive" / "Aivive" 作为一个单独的词出现在大标题里,用衬线斜体。其 italic 极其优美,与"warm + alive"调性相符。其他地方**不用**。
 - **等宽 Geist Mono**:合约地址、代码、tokenomics 数字表格。
 
 ### 3.2 Type Scale
@@ -447,4 +447,5 @@ updated: 2026-04-18
 ## 13. Versioning
 
 - v0.1(2026-04-18)—— 初始骨架,基于 Framer / Linear / Cal.com 合成;具体组件视觉(Logo / Illustration 原件)待 VI 提案后补入
+- v0.2(2026-05-05)—— serif 由 IBM Plex Serif 改为 **Instrument Serif**(更贴 warm + alive 调性,italic 用于品牌关键词强调);新增本仓库内字体源 [`wiki/design/assets/fonts/`](./assets/fonts/),包含 Geist 4 字重 + Instrument Serif Regular/Italic + Geist Mono 2 字重,共 8 个 woff2,用于 Claude Design 网页项目和 [[aiavive-app]] 共同消费
 - 下一版目标:v0.5 —— 补入定稿 Logo、完整组件库截图、首批 social kit 模板

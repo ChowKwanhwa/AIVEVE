@@ -62,7 +62,7 @@ ink (中性, teal-black hue 160°):
 ```
 Sans 默认:    Geist Sans          (大部分文字)
 Mono:        Geist Mono          (代码 / 技术示意)
-Display 衬线: IBM Plex Serif      (★ 仅用于关键词强调)
+Display 衬线: Instrument Serif      (★ 仅用于关键词强调)
 
 衬线使用规则(★ 严格):
   - 仅当出现 Aivive / Give / Vive 这三个词作为单词级强调时
@@ -113,7 +113,7 @@ Footer:      aivive.ai · @AIVIVEHQ
 
 - **中央**:一个 aqua → coral 渐变 orb(135° gradient,直径占画面 30-40%)
 - **Breathe 暗示**:orb 外围 2 个柔和 ring(透明度 15% / 8%,半径递增)
-- **"Soon"**:IBM Plex Serif italic,极大字号(占画面纵向 1/4),颜色用 brand-gradient text-fill
+- **"Soon"**:Instrument Serif italic,极大字号(占画面纵向 1/4),颜色用 brand-gradient text-fill
 - **Aivive**:sans semibold,中等字号,ink-100
 - **alive · warm · sharp**:极小字号横排,coral-500 中点 `·` 分隔,ink-300
 - **Footer**:极小字号,ink-500
@@ -210,7 +210,7 @@ Footer:      aivive.ai
   - **"Alive."**:aqua glow 描边 + 实心 ink-100 fill
   - **"Warm."**:coral glow 描边 + 实心 ink-100 fill
   - **"Sharp."**:仅 ink-100 实心(不发光,对比前两词的"冷峻锐利")
-- **Subhead**:衬线 italic(IBM Plex Serif),居中,ink-300,字号 lg-xl
+- **Subhead**:衬线 italic(Instrument Serif),居中,ink-300,字号 lg-xl
 - **三词之间**:微小的呼吸 orb(aqua-500,直径占字号 1/8,极小)作为视觉 anchor
 - **背景**:ink-950
 - **Footer**:极小,ink-500,底部居中
@@ -261,7 +261,7 @@ Footer:      Aivive · aivive.ai
 - **中央**:一个 model 抽象球体(aqua glow,半透明实心,直径占画面 25%)
 - **外围**:一层几何 harness 骨架(ink-300 线条 + 节点,非具象)— 想象成"线框监狱"或"骨骼外架"包住 orb
 - **张力**:harness 应该看起来"about to eat / consume" orb — 节点稍微逼近 orb 表面,可有微小的"接触"光晕
-- **"eats"**:IBM Plex Serif italic,brand-gradient text-fill,作为视觉重点
+- **"eats"**:Instrument Serif italic,brand-gradient text-fill,作为视觉重点
 - **Headline**:左对齐,3 行排版,大字号
 - **Body**:Headline 下方,中字号,ink-300,行距宽
 - **背景**:ink-950
@@ -372,7 +372,7 @@ aivive-poster-M5-day-counter-template.fig
 - [ ] **没有马 / 马蹄 / 红色 horse 相关**
 - [ ] **没有"AI 套路图"**(机器人脸、电路板、大脑齿轮、紫色 orb)
 - [ ] **背景是 ink-950 (#08100E)**,不是纯黑 #000
-- [ ] **Aivive / Give / Vive 这三个词出现时是衬线斜体**(IBM Plex Serif italic)
+- [ ] **Aivive / Give / Vive 这三个词出现时是衬线斜体**(Instrument Serif italic)
 - [ ] **渐变只用 aqua → coral 2-stop**(不是 3-stop)
 - [ ] **图标 stroke = 1.5px**(若用 lucide 风格)
 - [ ] **有"留白"**,不堆满

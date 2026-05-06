@@ -444,7 +444,7 @@ Footer:      aivive.ai · @AIVIVEHQ
 
 视觉:
 - 一个 aqua → coral 渐变 orb 居中,Breathe 动效暗示(2 个柔和 ring)
-- "Soon" 用 IBM Plex Serif italic, 极大字号
+- "Soon" 用 Instrument Serif italic, 极大字号
 - 下方 Aivive 用 sans semibold, 中等字号
 - "alive · warm · sharp" 极小字号,横排,coral 中点分隔
 - ink-950 背景,大量留白
@@ -1134,7 +1134,7 @@ no purple. no red. no surprise.
 P2A2:
 fonts:
 - Geist sans (default)
-- IBM Plex Serif (only on three words: Aivive, Give, Vive)
+- Instrument Serif (only on three words: Aivive, Give, Vive)
 
 the serif word in a sea of sans is the brand.
 ```

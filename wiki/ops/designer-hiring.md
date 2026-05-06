@@ -40,7 +40,7 @@ updated: 2026-04-19
 
 2. **品牌 VI 手册**(PDF / Figma 双版本)
    - 色板(基于 DESIGN.md 固定值)
-   - 字体规范(基于 Geist + IBM Plex Serif)
+   - 字体规范(基于 Geist + Instrument Serif)
    - Logo 使用规范(正确用法 / 错误用法)
    - 组件视觉示例
 
@@ -114,7 +114,7 @@ updated: 2026-04-19
 
 - **调性三词**:**Alive / Warm / Sharp**
 - **主色**:紫 `#5B3BEE` + 暖粉 `#FF8A5C` + 电光青 `#4FFFD8`
-- **字体**:Geist(Sans 主体)+ IBM Plex Serif(仅用于 Give / Vive / Aivive 关键词)
+- **字体**:Geist(Sans 主体)+ Instrument Serif(仅用于 Give / Vive / Aivive 关键词)
 - **插图风**:3D 玻璃态 orbs + 发光粒子 + 渐变网格 + 抽象曲面
 - **Signature motion**:Breathe(呼吸)/ Flow(流动)/ Give(粒子飞行)
 

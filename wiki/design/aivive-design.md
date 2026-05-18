@@ -1,14 +1,15 @@
 ---
 title: Aivive Design System (DESIGN.md)
 type: design
-status: draft v0.1
+status: v0.3 (violet removed, aqua primary + amber auxiliary warm)
 tags: [design, brand, aivive, design-system, ssot]
 sources:
   - raw/重启/项目方重启信息.md
   - wiki/design/references/framer-DESIGN.md
   - wiki/design/references/linear-DESIGN.md
   - wiki/design/references/cal-DESIGN.md
-updated: 2026-05-05
+  - outputs/poster/  # 海报视觉(aqua + coral + amber 三色锁死)
+updated: 2026-05-17
 ---
 # Aivive Design System
 
@@ -54,74 +55,91 @@ updated: 2026-05-05
 
 深色模式为默认(Dapp / 官网主色),浅色模式备用(文档 / 白皮书)。
 
-### 2.1 Brand Primaries
+色系遵循 §1.3 三个 visual adjectives:
 
-| Token            | Hex         | 用途                                                      |
-| ---------------- | ----------- | --------------------------------------------------------- |
-| `--violet-500` | `#5B3BEE` | **主色**。按钮、链接、品牌强调。来自 "AI = 紫=算力" |
-| `--violet-400` | `#7A60F2` | Hover / 次级强调                                          |
-| `--violet-600` | `#4828D9` | Pressed / 深按                                            |
-| `--violet-300` | `#9B86F7` | 禁用态 / 柔和描边                                         |
-| `--violet-700` | `#3617B3` | 深色底上的暗紫                                            |
+- **Aqua** = Alive / Vive(主色,海报中沙漏顶部 + 心电图绿)
+- **Coral + Amber** = Warm / Give(暖色双锚:coral 强、amber 柔,呼应海报沙漏底部的橙到黄过渡)
+- **Ink (green undertone)** = Sharp(中性,但偏绿调而非传统冷灰,持续品牌一致性)
 
-### 2.2 Warm Accent(对应 "Give")
+### 2.1 Brand Primary — Aqua
+
+| Token          | Hex         | 用途                                                          |
+| -------------- | ----------- | ------------------------------------------------------------- |
+| `--aqua-200` | `#A8FFEB` | 浅柔光 / 渐变起点 / 大字号品牌渐变上端                        |
+| `--aqua-500` | `#4FFFD8` | **主色**。按钮、链接、品牌强调、光晕、AI 思考 loading、成功态 |
+| `--aqua-700` | `#0E9E80` | 高对比场景(小字 on dark)                                      |
+| `--aqua-900` | `#06584A` | 深绿,用于 hover / pressed / 卡片边框                         |
+
+### 2.2 Warm Accent — Coral(主暖色,对应 "Give")
 
 | Token           | Hex         | 用途                                                     |
 | --------------- | ----------- | -------------------------------------------------------- |
+| `--coral-300` | `#FFC9AE` | 背景渐变起点 / 柔光 halo                                 |
 | `--coral-500` | `#FF8A5C` | 温度锚点。用于 "Give" 关键词、奖励/空投相关 UI、社区引导 |
-| `--coral-400` | `#FFA37D` | hover                                                    |
-| `--coral-300` | `#FFBC9D` | 背景渐变起点                                             |
+| `--coral-700` | `#B85531` | 深暖橙,hover / 按钮 pressed                             |
 
-### 2.3 Life Accent(对应 "Vive")
+### 2.3 Auxiliary Warm — Amber(claude 风暖黄,coral 的辅助回响)
 
-| Token          | Hex         | 用途                                                      |
-| -------------- | ----------- | --------------------------------------------------------- |
-| `--aqua-500` | `#4FFFD8` | 生命体征色。用于脉冲、光晕、成功态、AI 正在思考的 loading |
-| `--aqua-400` | `#7BFFE3` | 柔光                                                      |
-| `--aqua-600` | `#1FE8BC` | 高对比场景(小字 on dark)                                  |
+| Token           | Hex         | 用途                                                       |
+| --------------- | ----------- | ---------------------------------------------------------- |
+| `--amber-300` | `#F8D89A` | 柔光 halo / 装饰高光                                       |
+| `--amber-500` | `#E8B45A` | 强调点缀 — 在 warm gradient 中位于偏黄端,与 coral 配合     |
+| `--amber-700` | `#9F7833` | 深沉暖黄,用于阴影 / 边框                                  |
 
-### 2.4 Ink / Neutrals
+> **Amber 不单独作主强调色**。它是 coral 的延伸,在 warm gradient / 海报暖光 / claude-style 辅助高光中出现。Coral 是 warm 的主声音,amber 是回响。
+
+### 2.4 Ink / Neutrals(green undertone,hue ~160°)
+
+不用传统冷灰(冷调与 aqua 主色调性冲突),改用带绿色底的中性色,实现"绿调持续品牌"。
 
 | Token         | Hex         | 用途                       |
 | ------------- | ----------- | -------------------------- |
-| `--ink-950` | `#0B0720` | 深色模式 base 背景         |
-| `--ink-900` | `#100A2B` | 深色面板底                 |
-| `--ink-800` | `#1A1435` | 深色 raised surface        |
-| `--ink-700` | `#261D46` | 深色 muted surface         |
-| `--ink-500` | `#5E527E` | 次级文本(深色底)           |
-| `--ink-300` | `#C6BDE1` | 深色底主文本               |
-| `--ink-100` | `#EAE4F6` | 极浅紫灰                   |
-| `--ink-50`  | `#F6F4FC` | 浅色模式 base 背景         |
 | `--ink-0`   | `#FFFFFF` | 纯白 / 浅色 raised surface |
+| `--ink-50`  | `#F4F6F4` | 浅色模式 base 背景         |
+| `--ink-100` | `#E8EAE7` | 极浅绿灰                   |
+| `--ink-300` | `#A6B0AA` | 深色底主文本               |
+| `--ink-500` | `#5C6B65` | 次级文本                   |
+| `--ink-700` | `#2A332E` | 深色 muted surface / 边框  |
+| `--ink-800` | `#1A2220` | 深色 raised surface        |
+| `--ink-900` | `#0F1815` | **深色模式 base 背景**     |
+| `--ink-950` | `#0A1310` | 最深 modal / popup 底      |
 
 ### 2.5 Semantic
 
-| Token         | Hex         | 语义                                 |
-| ------------- | ----------- | ------------------------------------ |
-| `--success` | `#4FFFD8` | (= aqua-500)—— 有生命 = 成功       |
-| `--warning` | `#FF8A5C` | (= coral-500)—— 温暖色同时承担提示 |
-| `--danger`  | `#FF4470` | 错误、合约拒绝、余额不足             |
-| `--info`    | `#5B3BEE` | (= violet-500)—— 信息提示          |
+| Token         | Hex         | 语义                                                            |
+| ------------- | ----------- | --------------------------------------------------------------- |
+| `--success` | `#4FFFD8` | (= aqua-500)—— 有生命 = 成功                                  |
+| `--warning` | `#E8B45A` | (= amber-500)—— 暖黄承担提示                                  |
+| `--info`    | `#A8FFEB` | (= aqua-200)—— 浅 aqua 作信息提示                             |
+| `--danger`  | `#FF4470` | 错误、合约拒绝、余额不足(只在 system 错误态用,日常 UI 不出现) |
+
+> Coral (`#FF8A5C`) **不进 semantic** — 它是品牌暖色,不应混入功能态颜色。
 
 ### 2.6 Gradients(品牌 signature,务必保留)
 
 ```
 /* Primary gradient — 品牌主渐变,hero / logo-mark / CTA 发光使用 */
---grad-brand: linear-gradient(135deg, #5B3BEE 0%, #FF8A5C 50%, #4FFFD8 100%);
+/* Aqua → Amber → Coral 的暖光过渡,呼应海报中沙漏顶部 aqua + 底部 warm */
+--grad-brand: linear-gradient(135deg, #4FFFD8 0%, #E8B45A 50%, #FF8A5C 100%);
 
 /* Soft gradient — 卡片 / banner / 轻量装饰 */
---grad-soft: linear-gradient(135deg, #9B86F7 0%, #FFBC9D 100%);
+--grad-soft: linear-gradient(135deg, #A8FFEB 0%, #FFC9AE 100%);
 
 /* Glow gradient — 发光元素(按钮 hover halo、logo 呼吸) */
---grad-glow: radial-gradient(circle at 50% 50%, rgba(79,255,216,0.55) 0%, rgba(91,59,238,0.25) 40%, transparent 70%);
+--grad-glow: radial-gradient(circle at 50% 50%, rgba(79,255,216,0.55) 0%, rgba(232,180,90,0.20) 40%, transparent 70%);
+
+/* Warm gradient — coral + amber 双暖叠加,用于温暖 CTA / 奖励 banner */
+--grad-warm: linear-gradient(135deg, #FFC9AE 0%, #E8B45A 50%, #FF8A5C 100%);
 ```
 
 ### 2.7 颜色禁区(Do Not)
 
-- ❌ **不使用任何红色**(Red Horse 遗产色,必须视觉切断)
-- ❌ **不使用纯黑 `#000`**(太硬,用 `--ink-950`)
-- ❌ **不使用企业蓝**(Stripe/Coinbase 蓝会劝退 Solana 社区)
-- ❌ **饱和黄不做强调色**(meme 感)
+- ❌ **不使用 violet / 紫色 / 任何 AI-default 紫调**(AI 滥用色;且与品牌方向反向。海报视觉以 aqua + coral + amber 三色锁死,任何紫色入侵都会立刻打破品牌识别)
+- ❌ **不使用任何红色**(Red Horse 遗产色,必须视觉切断;`--danger #FF4470` 是粉红,不是纯红,且只能用于 system 错误态)
+- ❌ **不使用纯黑 `#000`**(太硬,用 `--ink-900` 或 `--ink-950`)
+- ❌ **不使用企业蓝**(Stripe/Coinbase 蓝会劝退 Solana 社区,且冷调与 aqua 抢眼)
+- ❌ **饱和黄不做强调色**(meme 感;amber `#E8B45A` 是低饱和暖黄,与 claude 同源温度,不与饱和黄混淆)
+- ❌ **不写 hex 字面量到组件代码**;统一从 token 引用(Tailwind `color-aqua-500` / CSS `var(--aqua-500)`)
 
 ---
 
@@ -238,9 +256,9 @@ updated: 2026-05-05
 ### 5.3 Glows(品牌 signature,按钮/logo/AI 正在工作的元素)
 
 ```
---glow-violet: 0 0 40px rgba(91,59,238,0.45);
---glow-coral: 0 0 32px rgba(255,138,92,0.40);
---glow-aqua: 0 0 32px rgba(79,255,216,0.45);
+--glow-aqua: 0 0 40px rgba(79,255,216,0.45);    /* primary glow */
+--glow-coral: 0 0 32px rgba(255,138,92,0.40);   /* warm glow (Give) */
+--glow-amber: 0 0 28px rgba(232,180,90,0.35);   /* auxiliary warm halo */
 ```
 
 ---
@@ -269,7 +287,7 @@ updated: 2026-05-05
 
 ### 6.3 Signature animations
 
-1. **Breathe(呼吸)** —— logo mark 持续 2.8s 循环放大缩小 1.5%,同时 `--glow-violet` 半径随之波动。承载"AI is alive"叙事。
+1. **Breathe(呼吸)** —— logo mark 持续 2.8s 循环放大缩小 1.5%,同时 `--glow-aqua` 半径随之波动。承载"AI is alive"叙事。
 2. **Flow(流动)** —— hero 背景中 3–5 个柔和 orb 沿大椭圆轨道缓慢漂移(30s+ 单次)。
 3. **Give(给予)** —— 空投 / 奖励相关 UI 出现时,`--coral-500` 粒子从 CTA 按钮向用户头像方向飞行,持续 800ms。
 
@@ -295,7 +313,7 @@ updated: 2026-05-05
 
 ✅ 采用:
 
-- 3D 玻璃态 orbs(violet → coral → aqua 渐变)
+- 3D 玻璃态 orbs(aqua → amber → coral 渐变,呼应 §2.6 `--grad-brand`)
 - 发光粒子 / 光带
 - 渐变网格(gradient mesh)背景
 - 抽象曲面(matching "有机" adjective)
@@ -344,12 +362,14 @@ updated: 2026-05-05
 
 ### 9.1 Button
 
-| 变体        | 底色                                         | 文字                          | 边框                 | Hover                                      |
-| ----------- | -------------------------------------------- | ----------------------------- | -------------------- | ------------------------------------------ |
-| `primary` | `--violet-500`                             | white                         | —                   | +`--glow-violet`, bg→`--violet-400`   |
-| `give`    | `--coral-500`                              | white                         | —                   | +`--glow-coral`(只用于奖励/空投相关 CTA) |
-| `ghost`   | transparent                                  | `--violet-500`              | 1px `--violet-500` | bg→rgba(91,59,238,0.08)                   |
-| `quiet`   | `--ink-100` (light) / `--ink-800` (dark) | `--ink-900` / `--ink-300` | —                   | 加深 1 级                                  |
+| 变体        | 底色                                         | 文字                          | 边框                 | Hover                                              |
+| ----------- | -------------------------------------------- | ----------------------------- | -------------------- | -------------------------------------------------- |
+| `primary` | `--aqua-500`                               | `--ink-900`(高对比)         | —                   | +`--glow-aqua`, bg→`--aqua-200`               |
+| `give`    | `--coral-500`                              | white                         | —                   | +`--glow-coral`(只用于奖励/空投相关 CTA)         |
+| `ghost`   | transparent                                  | `--aqua-500`                | 1px `--aqua-500`   | bg→rgba(79,255,216,0.08)                          |
+| `quiet`   | `--ink-100` (light) / `--ink-800` (dark) | `--ink-900` / `--ink-300` | —                   | 加深 1 级                                          |
+
+> Aqua 主色 `#4FFFD8` 是浅亮绿,white 文字看不清 — `primary` 按钮文字必须用 `--ink-900`(深绿黑)。
 
 - radius: `radius-sm`(小)/ `radius-md`(中、大)
 - Padding: `12px 20px`(中)/ `16px 28px`(大)
@@ -368,14 +388,14 @@ updated: 2026-05-05
 - 底色:`--ink-50` / `--ink-900`
 - 圆角:`radius-md`
 - 边框:1px `--ink-100` / `--ink-700`
-- Focus:1px `--violet-500` + `--glow-violet`(半径减半)
+- Focus:1px `--aqua-500` + `--glow-aqua`(半径减半)
 
 ### 9.4 Badge / Tag
 
 - 圆角:`radius-pill`
 - Padding:`4px 10px`
 - 字号:`caption`
-- 变体:信息(violet 半透)/ 成功(aqua 半透)/ 温暖(coral 半透)
+- 变体:信息(aqua-200 半透)/ 成功(aqua-500 半透)/ 暖色(coral 半透)/ 提示(amber 半透)
 
 ### 9.5 Hero(页面英雄区)
 
@@ -390,7 +410,7 @@ updated: 2026-05-05
 
 ### 10.1 Dark mode(Dapp / 官网默认)
 
-- 背景:`--ink-950`
+- 背景:`--ink-900`(`#0F1815` — 已经够深;`--ink-950` 留给 modal / popup 底层)
 - 主文本:`--ink-300`
 - 次级文本:`--ink-500`
 - 所有渐变保持原色,发光在深底上更明显
@@ -448,4 +468,12 @@ updated: 2026-05-05
 
 - v0.1(2026-04-18)—— 初始骨架,基于 Framer / Linear / Cal.com 合成;具体组件视觉(Logo / Illustration 原件)待 VI 提案后补入
 - v0.2(2026-05-05)—— serif 由 IBM Plex Serif 改为 **Instrument Serif**(更贴 warm + alive 调性,italic 用于品牌关键词强调);新增本仓库内字体源 [`wiki/design/assets/fonts/`](./assets/fonts/),包含 Geist 4 字重 + Instrument Serif Regular/Italic + Geist Mono 2 字重,共 8 个 woff2,用于 Claude Design 网页项目和 [[aiavive-app]] 共同消费
+- v0.3(2026-05-17)—— **调色板根本性反转**:
+  - **完全移除 violet** 作为主色(用户明确反对 AI-default 紫调;海报视觉已锁死 aqua + coral + amber)
+  - **Aqua 升为 primary**(`#4FFFD8`),不再是辅助 "Life Accent"
+  - **新增 Amber 辅助暖色**(`#E8B45A`,claude 风暖黄),作为 coral 的延伸,在 warm gradient 偏黄端 + 海报暖光中使用
+  - **Ink 从紫调切换到 green undertone**(`#0F1815` 取代 `#0B0720`),呼应整体绿调持续品牌
+  - §2 / §5.3 / §6.3 / §7.2 / §9.1 / §9.3 / §9.4 / §10.1 同步更新所有引用
+  - 新增 §2.7 颜色禁区第一条:❌ 不使用 violet / 紫色
+  - 字体保持 v0.2(Geist + Instrument Serif + Geist Mono);[[aivive-landing|landing]] 实际用 Instrument Sans + Instrument Serif + JetBrains Mono — 字体对齐待用户决策(本 wiki 与代码字体不一致是 known divergence,后续 v0.4 处理)
 - 下一版目标:v0.5 —— 补入定稿 Logo、完整组件库截图、首批 social kit 模板
